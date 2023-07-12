@@ -61,37 +61,11 @@ export default function MyAppBar() {
         }}
       >
         <MenuItem
-          onClick={(e) => handleLink("https://www.ibm.com/docs/en/ibamoe")}
+          onClick={(e) => handleLink("https://www.ibm.com/products/operational-decision-manager?utm_content=SRCWW&p1=Search&p4=43700074894717407&p5=e&gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_nQd181dthEVasQLjmiL7tHUmGXFh_-W3dMRJgaISh9l6X7qeCAw2AaAqM8EALw_wcB&gclsrc=aw.ds")}
         >
           IBM Docs
         </MenuItem>
-        <MenuItem onClick={(e) => handleLink("https://blog.kie.org/")}>
-          KIE Blog
-        </MenuItem>
-        <MenuItem onClick={(e) => handleLink("https://kogito.kie.org/")}>
-          Kogito
-        </MenuItem>
-        <MenuItem
-          onClick={(e) =>
-            handleLink(
-              "https://kiegroup.github.io/dmn-feel-handbook/#dmn-feel-handbook"
-            )
-          }
-        >
-          FEEL
-        </MenuItem>
-        <MenuItem
-          onClick={(e) => handleLink("https://learn-dmn-in-15-minutes.com/")}
-        >
-          DMN 15 Mins
-        </MenuItem>
-        <MenuItem
-          onClick={(e) =>
-            handleLink("https://github.com/ncrowther/WeatherGUI")
-          }
-        >
-          This App on github
-        </MenuItem>
+  
       </Menu>
     </AppBar>
   );

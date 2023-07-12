@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>RuleFlow</name>
+  <uuid>8b5da554-0bf2-4c9a-95e2-93646d36ecb5</uuid>
+  <locale>en_US</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0">
+        <Actions Language="irl"><![CDATA[System.out.println("### Starting Lookup_Table_Service Ruleflow");]]>&#13;<![CDATA[
+System.out.print("   Dynamic Rule selecting rules containing  \""+ TableName + "\" with Lookup values: ");]]>&#13;<![CDATA[
+for (int loop = 0; loop < InputValues.length; loop++) {]]>&#13;<![CDATA[
+	System.out.print( "["+ InputValues[loop] + "]  ");]]>&#13;<![CDATA[
+}]]>&#13;<![CDATA[
+System.out.println("");]]>&#13;<![CDATA[
+]]>&#13;<![CDATA[
+// -- Set Default output value to check trap nothing fired situation]]>&#13;<![CDATA[
+OutputValues[0] = failedLookupValue;]]>&#13;<![CDATA[
+]]></Actions>
+      </StartTask>
+      <RuleTask ExecutionMode="Sequential" ExitCriteria="None" Identifier="Fire specified Lookup Rule(s)" Ordering="Default">
+        <Select Dynamic="false" Language="bal"><![CDATA[clean name of the name of 'the rule' contains TableName]]></Select>
+      </RuleTask>
+      <StopTask Identifier="task_1">
+        <Actions Language="irl"><![CDATA[if (OutputValues.length == 1) System.out.println( "Output Value : ["+ OutputValues[0] +"]");]]>&#13;<![CDATA[
+if (OutputValues.length == 2) System.out.println( "Output Values : ["+ OutputValues[0] +" , "+ OutputValues[1] +"]");]]>&#13;<![CDATA[
+if (OutputValues.length == 3) System.out.println( "Output Values : ["+ OutputValues[0] +" , "+ OutputValues[1] +" , "+ OutputValues[2] +"]");]]>&#13;<![CDATA[
+if (OutputValues.length >= 4) System.out.println( "Output Values : ["+ OutputValues[0] +" , "+ OutputValues[1] +" , "+ OutputValues[2] +" , "+ OutputValues[3] +"]");]]>&#13;<![CDATA[
+]]>&#13;<![CDATA[
+// -- Check for nothing Fired error but don't override user created error.]]>&#13;<![CDATA[
+if (!ErrorRaised && OutputValues[0].equals( failedLookupValue ) ) {]]>&#13;<![CDATA[
+	ErrorMessage = "ERROR - No lookup was found using Table ["+ TableName +"]";]]>&#13;<![CDATA[
+	ErrorRaised = true;]]>&#13;<![CDATA[
+}]]>&#13;<![CDATA[
+]]>&#13;<![CDATA[
+if (ErrorRaised)   System.out.println( "An error was raised:    "+ ErrorMessage);]]>&#13;<![CDATA[
+System.out.println( "### Ended Ruleflow" );]]>&#13;<![CDATA[
+]]></Actions>
+      </StopTask>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Fire specified Lookup Rule(s)"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_2"/>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_1"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="en_US">
+      <Data Name="node_2#height">40.0</Data>
+      <Data Name="node_1#height">22.0</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="node_1#width">22.000008</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_2#width">227.97809</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_0#x">113.989044</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_1#x">113.989044</Data>
+      <Data Name="node_1#y">172.0</Data>
+      <Data Name="node_2#x">113.98898</Data>
+      <Data Name="node_2#y">90.5</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties>
+    <imports><![CDATA[use RuleName;
+use GivenValues;
+use FindValues;
+use InputValues;
+use TableName;
+use ErrorRaised;
+use ErrorMessage;
+use OutputValues;
+use failedLookupValue;
+]]></imports>
+  </Properties>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

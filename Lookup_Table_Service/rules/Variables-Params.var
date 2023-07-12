@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Variables-Params</name>
+  <uuid>09ec26f2-c5e9-456c-8336-08e6a1fab590</uuid>
+  <documentation><![CDATA[]]></documentation>
+  <variables name="useReverse" type="boolean" initialValue="false" verbalization=""/>
+  <variables name="TableName" type="java.lang.String" initialValue="" verbalization="TableName"/>
+  <variables name="InputValues" type="java.lang.String[]" initialValue="" verbalization="InputValues"/>
+  <variables name="OutputValues" type="java.lang.String[]" initialValue="new java.lang.String[1]" verbalization="OutputValues"/>
+  <variables name="ErrorRaised" type="boolean" initialValue="false" verbalization="ErrorRaised"/>
+  <variables name="ErrorMessage" type="java.lang.String" initialValue="&quot;&quot;" verbalization="ErrorMessage"/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,4900 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>288e8112-d791-4543-94ba-0061063e1565</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>CountriesDomain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Australia</name>
+            <getter language="irl"><![CDATA[
+            return "Australia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Austria</name>
+            <getter language="irl"><![CDATA[
+            return "Austria";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Brazil</name>
+            <getter language="irl"><![CDATA[
+            return "Brazil";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Canada</name>
+            <getter language="irl"><![CDATA[
+            return "Canada";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Chile</name>
+            <getter language="irl"><![CDATA[
+            return "Chile";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>China</name>
+            <getter language="irl"><![CDATA[
+            return "China";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Croatia</name>
+            <getter language="irl"><![CDATA[
+            return "Croatia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Czech_Republic</name>
+            <getter language="irl"><![CDATA[
+            return "Czech Republic";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Denmark</name>
+            <getter language="irl"><![CDATA[
+            return "Denmark";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Egypt</name>
+            <getter language="irl"><![CDATA[
+            return "Egypt";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Estonia</name>
+            <getter language="irl"><![CDATA[
+            return "Estonia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Finland</name>
+            <getter language="irl"><![CDATA[
+            return "Finland";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>France</name>
+            <getter language="irl"><![CDATA[
+            return "France";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Germany</name>
+            <getter language="irl"><![CDATA[
+            return "Germany";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Greece</name>
+            <getter language="irl"><![CDATA[
+            return "Greece";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>HongKong</name>
+            <getter language="irl"><![CDATA[
+            return "HongKong";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Hungary</name>
+            <getter language="irl"><![CDATA[
+            return "Hungary";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Iceland</name>
+            <getter language="irl"><![CDATA[
+            return "Iceland";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>India</name>
+            <getter language="irl"><![CDATA[
+            return "India";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Indonesia</name>
+            <getter language="irl"><![CDATA[
+            return "Indonesia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Ireland</name>
+            <getter language="irl"><![CDATA[
+            return "Ireland";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Israel</name>
+            <getter language="irl"><![CDATA[
+            return "Israel";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Italy</name>
+            <getter language="irl"><![CDATA[
+            return "Italy";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Japan</name>
+            <getter language="irl"><![CDATA[
+            return "Japan";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Lithuania</name>
+            <getter language="irl"><![CDATA[
+            return "Lithuania";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Malaysia</name>
+            <getter language="irl"><![CDATA[
+            return "Malaysia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Mexico</name>
+            <getter language="irl"><![CDATA[
+            return "Mexico";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Netherlands</name>
+            <getter language="irl"><![CDATA[
+            return "Netherlands";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>New_Zealand</name>
+            <getter language="irl"><![CDATA[
+            return "New Zealand";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Norway</name>
+            <getter language="irl"><![CDATA[
+            return "Norway";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Pakistan</name>
+            <getter language="irl"><![CDATA[
+            return "Pakistan";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Poland</name>
+            <getter language="irl"><![CDATA[
+            return "Poland";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Portugal</name>
+            <getter language="irl"><![CDATA[
+            return "Portugal";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Russia</name>
+            <getter language="irl"><![CDATA[
+            return "Russia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Singapore</name>
+            <getter language="irl"><![CDATA[
+            return "Singapore";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Slovakia</name>
+            <getter language="irl"><![CDATA[
+            return "Slovakia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Slovenia</name>
+            <getter language="irl"><![CDATA[
+            return "Slovenia";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>South_Africa</name>
+            <getter language="irl"><![CDATA[
+            return "South Africa";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Spain</name>
+            <getter language="irl"><![CDATA[
+            return "Spain";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Sweden</name>
+            <getter language="irl"><![CDATA[
+            return "Sweden";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Switzerland</name>
+            <getter language="irl"><![CDATA[
+            return "Switzerland";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Thailand</name>
+            <getter language="irl"><![CDATA[
+            return "Thailand";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Turkey</name>
+            <getter language="irl"><![CDATA[
+            return "Turkey";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Ukraine</name>
+            <getter language="irl"><![CDATA[
+            return "Ukraine";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>United_Kingdom</name>
+            <getter language="irl"><![CDATA[
+            return "United Kingdom";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>United_States</name>
+            <getter language="irl"><![CDATA[
+            return "United States";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>SICCodesDomain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>sic_10110</name>
+            <getter language="irl"><![CDATA[
+            return "10110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10120</name>
+            <getter language="irl"><![CDATA[
+            return "10120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10130</name>
+            <getter language="irl"><![CDATA[
+            return "10130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10200</name>
+            <getter language="irl"><![CDATA[
+            return "10200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10310</name>
+            <getter language="irl"><![CDATA[
+            return "10310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10320</name>
+            <getter language="irl"><![CDATA[
+            return "10320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10390</name>
+            <getter language="irl"><![CDATA[
+            return "10390";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10410</name>
+            <getter language="irl"><![CDATA[
+            return "10410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10420</name>
+            <getter language="irl"><![CDATA[
+            return "10420";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10511</name>
+            <getter language="irl"><![CDATA[
+            return "10511";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10512</name>
+            <getter language="irl"><![CDATA[
+            return "10512";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10519</name>
+            <getter language="irl"><![CDATA[
+            return "10519";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10520</name>
+            <getter language="irl"><![CDATA[
+            return "10520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10611</name>
+            <getter language="irl"><![CDATA[
+            return "10611";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10612</name>
+            <getter language="irl"><![CDATA[
+            return "10612";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10620</name>
+            <getter language="irl"><![CDATA[
+            return "10620";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10710</name>
+            <getter language="irl"><![CDATA[
+            return "10710";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10720</name>
+            <getter language="irl"><![CDATA[
+            return "10720";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10730</name>
+            <getter language="irl"><![CDATA[
+            return "10730";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10810</name>
+            <getter language="irl"><![CDATA[
+            return "10810";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10821</name>
+            <getter language="irl"><![CDATA[
+            return "10821";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10822</name>
+            <getter language="irl"><![CDATA[
+            return "10822";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10831</name>
+            <getter language="irl"><![CDATA[
+            return "10831";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10832</name>
+            <getter language="irl"><![CDATA[
+            return "10832";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10840</name>
+            <getter language="irl"><![CDATA[
+            return "10840";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10850</name>
+            <getter language="irl"><![CDATA[
+            return "10850";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10860</name>
+            <getter language="irl"><![CDATA[
+            return "10860";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10890</name>
+            <getter language="irl"><![CDATA[
+            return "10890";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10910</name>
+            <getter language="irl"><![CDATA[
+            return "10910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_10920</name>
+            <getter language="irl"><![CDATA[
+            return "10920";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_11010</name>
+            <getter language="irl"><![CDATA[
+            return "11010";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_11020</name>
+            <getter language="irl"><![CDATA[
+            return "11020";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_11030</name>
+            <getter language="irl"><![CDATA[
+            return "11030";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_11040</name>
+            <getter language="irl"><![CDATA[
+            return "11040";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_11050</name>
+            <getter language="irl"><![CDATA[
+            return "11050";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_11060</name>
+            <getter language="irl"><![CDATA[
+            return "11060";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_11070</name>
+            <getter language="irl"><![CDATA[
+            return "11070";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1110</name>
+            <getter language="irl"><![CDATA[
+            return "1110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1120</name>
+            <getter language="irl"><![CDATA[
+            return "1120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1130</name>
+            <getter language="irl"><![CDATA[
+            return "1130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1140</name>
+            <getter language="irl"><![CDATA[
+            return "1140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1150</name>
+            <getter language="irl"><![CDATA[
+            return "1150";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1160</name>
+            <getter language="irl"><![CDATA[
+            return "1160";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1190</name>
+            <getter language="irl"><![CDATA[
+            return "1190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_12000</name>
+            <getter language="irl"><![CDATA[
+            return "12000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1210</name>
+            <getter language="irl"><![CDATA[
+            return "1210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1220</name>
+            <getter language="irl"><![CDATA[
+            return "1220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1230</name>
+            <getter language="irl"><![CDATA[
+            return "1230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1240</name>
+            <getter language="irl"><![CDATA[
+            return "1240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1250</name>
+            <getter language="irl"><![CDATA[
+            return "1250";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1260</name>
+            <getter language="irl"><![CDATA[
+            return "1260";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1270</name>
+            <getter language="irl"><![CDATA[
+            return "1270";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1280</name>
+            <getter language="irl"><![CDATA[
+            return "1280";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1290</name>
+            <getter language="irl"><![CDATA[
+            return "1290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1300</name>
+            <getter language="irl"><![CDATA[
+            return "1300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13100</name>
+            <getter language="irl"><![CDATA[
+            return "13100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13200</name>
+            <getter language="irl"><![CDATA[
+            return "13200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13300</name>
+            <getter language="irl"><![CDATA[
+            return "13300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13910</name>
+            <getter language="irl"><![CDATA[
+            return "13910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13921</name>
+            <getter language="irl"><![CDATA[
+            return "13921";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13922</name>
+            <getter language="irl"><![CDATA[
+            return "13922";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13923</name>
+            <getter language="irl"><![CDATA[
+            return "13923";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13931</name>
+            <getter language="irl"><![CDATA[
+            return "13931";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13939</name>
+            <getter language="irl"><![CDATA[
+            return "13939";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13940</name>
+            <getter language="irl"><![CDATA[
+            return "13940";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13950</name>
+            <getter language="irl"><![CDATA[
+            return "13950";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13960</name>
+            <getter language="irl"><![CDATA[
+            return "13960";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_13990</name>
+            <getter language="irl"><![CDATA[
+            return "13990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1410</name>
+            <getter language="irl"><![CDATA[
+            return "1410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14110</name>
+            <getter language="irl"><![CDATA[
+            return "14110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14120</name>
+            <getter language="irl"><![CDATA[
+            return "14120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14131</name>
+            <getter language="irl"><![CDATA[
+            return "14131";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14132</name>
+            <getter language="irl"><![CDATA[
+            return "14132";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14141</name>
+            <getter language="irl"><![CDATA[
+            return "14141";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14142</name>
+            <getter language="irl"><![CDATA[
+            return "14142";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14190</name>
+            <getter language="irl"><![CDATA[
+            return "14190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1420</name>
+            <getter language="irl"><![CDATA[
+            return "1420";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14200</name>
+            <getter language="irl"><![CDATA[
+            return "14200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1430</name>
+            <getter language="irl"><![CDATA[
+            return "1430";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14310</name>
+            <getter language="irl"><![CDATA[
+            return "14310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_14390</name>
+            <getter language="irl"><![CDATA[
+            return "14390";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1440</name>
+            <getter language="irl"><![CDATA[
+            return "1440";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1450</name>
+            <getter language="irl"><![CDATA[
+            return "1450";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1460</name>
+            <getter language="irl"><![CDATA[
+            return "1460";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1470</name>
+            <getter language="irl"><![CDATA[
+            return "1470";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1490</name>
+            <getter language="irl"><![CDATA[
+            return "1490";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1500</name>
+            <getter language="irl"><![CDATA[
+            return "1500";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_15110</name>
+            <getter language="irl"><![CDATA[
+            return "15110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_15120</name>
+            <getter language="irl"><![CDATA[
+            return "15120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_15200</name>
+            <getter language="irl"><![CDATA[
+            return "15200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1610</name>
+            <getter language="irl"><![CDATA[
+            return "1610";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_16100</name>
+            <getter language="irl"><![CDATA[
+            return "16100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1621</name>
+            <getter language="irl"><![CDATA[
+            return "1621";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_16210</name>
+            <getter language="irl"><![CDATA[
+            return "16210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_16220</name>
+            <getter language="irl"><![CDATA[
+            return "16220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_16230</name>
+            <getter language="irl"><![CDATA[
+            return "16230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_16240</name>
+            <getter language="irl"><![CDATA[
+            return "16240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1629</name>
+            <getter language="irl"><![CDATA[
+            return "1629";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_16290</name>
+            <getter language="irl"><![CDATA[
+            return "16290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1630</name>
+            <getter language="irl"><![CDATA[
+            return "1630";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1640</name>
+            <getter language="irl"><![CDATA[
+            return "1640";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_1700</name>
+            <getter language="irl"><![CDATA[
+            return "1700";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17110</name>
+            <getter language="irl"><![CDATA[
+            return "17110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17120</name>
+            <getter language="irl"><![CDATA[
+            return "17120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17211</name>
+            <getter language="irl"><![CDATA[
+            return "17211";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17219</name>
+            <getter language="irl"><![CDATA[
+            return "17219";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17220</name>
+            <getter language="irl"><![CDATA[
+            return "17220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17230</name>
+            <getter language="irl"><![CDATA[
+            return "17230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17240</name>
+            <getter language="irl"><![CDATA[
+            return "17240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_17290</name>
+            <getter language="irl"><![CDATA[
+            return "17290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18110</name>
+            <getter language="irl"><![CDATA[
+            return "18110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18121</name>
+            <getter language="irl"><![CDATA[
+            return "18121";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18129</name>
+            <getter language="irl"><![CDATA[
+            return "18129";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18130</name>
+            <getter language="irl"><![CDATA[
+            return "18130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18140</name>
+            <getter language="irl"><![CDATA[
+            return "18140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18201</name>
+            <getter language="irl"><![CDATA[
+            return "18201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18202</name>
+            <getter language="irl"><![CDATA[
+            return "18202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_18203</name>
+            <getter language="irl"><![CDATA[
+            return "18203";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_19100</name>
+            <getter language="irl"><![CDATA[
+            return "19100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_19201</name>
+            <getter language="irl"><![CDATA[
+            return "19201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_19209</name>
+            <getter language="irl"><![CDATA[
+            return "19209";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20110</name>
+            <getter language="irl"><![CDATA[
+            return "20110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20120</name>
+            <getter language="irl"><![CDATA[
+            return "20120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20130</name>
+            <getter language="irl"><![CDATA[
+            return "20130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20140</name>
+            <getter language="irl"><![CDATA[
+            return "20140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20150</name>
+            <getter language="irl"><![CDATA[
+            return "20150";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20160</name>
+            <getter language="irl"><![CDATA[
+            return "20160";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20170</name>
+            <getter language="irl"><![CDATA[
+            return "20170";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20200</name>
+            <getter language="irl"><![CDATA[
+            return "20200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20301</name>
+            <getter language="irl"><![CDATA[
+            return "20301";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20302</name>
+            <getter language="irl"><![CDATA[
+            return "20302";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20411</name>
+            <getter language="irl"><![CDATA[
+            return "20411";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20412</name>
+            <getter language="irl"><![CDATA[
+            return "20412";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20420</name>
+            <getter language="irl"><![CDATA[
+            return "20420";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20510</name>
+            <getter language="irl"><![CDATA[
+            return "20510";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20520</name>
+            <getter language="irl"><![CDATA[
+            return "20520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20530</name>
+            <getter language="irl"><![CDATA[
+            return "20530";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20590</name>
+            <getter language="irl"><![CDATA[
+            return "20590";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_20600</name>
+            <getter language="irl"><![CDATA[
+            return "20600";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_2100</name>
+            <getter language="irl"><![CDATA[
+            return "2100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_21100</name>
+            <getter language="irl"><![CDATA[
+            return "21100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_21200</name>
+            <getter language="irl"><![CDATA[
+            return "21200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_2200</name>
+            <getter language="irl"><![CDATA[
+            return "2200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_22110</name>
+            <getter language="irl"><![CDATA[
+            return "22110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_22190</name>
+            <getter language="irl"><![CDATA[
+            return "22190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_22210</name>
+            <getter language="irl"><![CDATA[
+            return "22210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_22220</name>
+            <getter language="irl"><![CDATA[
+            return "22220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_22230</name>
+            <getter language="irl"><![CDATA[
+            return "22230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_22290</name>
+            <getter language="irl"><![CDATA[
+            return "22290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_2300</name>
+            <getter language="irl"><![CDATA[
+            return "2300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23110</name>
+            <getter language="irl"><![CDATA[
+            return "23110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23120</name>
+            <getter language="irl"><![CDATA[
+            return "23120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23130</name>
+            <getter language="irl"><![CDATA[
+            return "23130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23140</name>
+            <getter language="irl"><![CDATA[
+            return "23140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23190</name>
+            <getter language="irl"><![CDATA[
+            return "23190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23200</name>
+            <getter language="irl"><![CDATA[
+            return "23200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23310</name>
+            <getter language="irl"><![CDATA[
+            return "23310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23320</name>
+            <getter language="irl"><![CDATA[
+            return "23320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23410</name>
+            <getter language="irl"><![CDATA[
+            return "23410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23420</name>
+            <getter language="irl"><![CDATA[
+            return "23420";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23430</name>
+            <getter language="irl"><![CDATA[
+            return "23430";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23440</name>
+            <getter language="irl"><![CDATA[
+            return "23440";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23490</name>
+            <getter language="irl"><![CDATA[
+            return "23490";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23510</name>
+            <getter language="irl"><![CDATA[
+            return "23510";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23520</name>
+            <getter language="irl"><![CDATA[
+            return "23520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23610</name>
+            <getter language="irl"><![CDATA[
+            return "23610";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23620</name>
+            <getter language="irl"><![CDATA[
+            return "23620";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23630</name>
+            <getter language="irl"><![CDATA[
+            return "23630";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23640</name>
+            <getter language="irl"><![CDATA[
+            return "23640";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23650</name>
+            <getter language="irl"><![CDATA[
+            return "23650";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23690</name>
+            <getter language="irl"><![CDATA[
+            return "23690";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23700</name>
+            <getter language="irl"><![CDATA[
+            return "23700";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23910</name>
+            <getter language="irl"><![CDATA[
+            return "23910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_23990</name>
+            <getter language="irl"><![CDATA[
+            return "23990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_2400</name>
+            <getter language="irl"><![CDATA[
+            return "2400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24100</name>
+            <getter language="irl"><![CDATA[
+            return "24100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24200</name>
+            <getter language="irl"><![CDATA[
+            return "24200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24310</name>
+            <getter language="irl"><![CDATA[
+            return "24310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24320</name>
+            <getter language="irl"><![CDATA[
+            return "24320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24330</name>
+            <getter language="irl"><![CDATA[
+            return "24330";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24340</name>
+            <getter language="irl"><![CDATA[
+            return "24340";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24410</name>
+            <getter language="irl"><![CDATA[
+            return "24410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24420</name>
+            <getter language="irl"><![CDATA[
+            return "24420";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24430</name>
+            <getter language="irl"><![CDATA[
+            return "24430";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24440</name>
+            <getter language="irl"><![CDATA[
+            return "24440";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24450</name>
+            <getter language="irl"><![CDATA[
+            return "24450";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24460</name>
+            <getter language="irl"><![CDATA[
+            return "24460";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24510</name>
+            <getter language="irl"><![CDATA[
+            return "24510";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24520</name>
+            <getter language="irl"><![CDATA[
+            return "24520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24530</name>
+            <getter language="irl"><![CDATA[
+            return "24530";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_24540</name>
+            <getter language="irl"><![CDATA[
+            return "24540";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25110</name>
+            <getter language="irl"><![CDATA[
+            return "25110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25120</name>
+            <getter language="irl"><![CDATA[
+            return "25120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25210</name>
+            <getter language="irl"><![CDATA[
+            return "25210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25290</name>
+            <getter language="irl"><![CDATA[
+            return "25290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25300</name>
+            <getter language="irl"><![CDATA[
+            return "25300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25400</name>
+            <getter language="irl"><![CDATA[
+            return "25400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25500</name>
+            <getter language="irl"><![CDATA[
+            return "25500";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25610</name>
+            <getter language="irl"><![CDATA[
+            return "25610";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25620</name>
+            <getter language="irl"><![CDATA[
+            return "25620";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25710</name>
+            <getter language="irl"><![CDATA[
+            return "25710";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25720</name>
+            <getter language="irl"><![CDATA[
+            return "25720";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25730</name>
+            <getter language="irl"><![CDATA[
+            return "25730";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25910</name>
+            <getter language="irl"><![CDATA[
+            return "25910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25920</name>
+            <getter language="irl"><![CDATA[
+            return "25920";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25930</name>
+            <getter language="irl"><![CDATA[
+            return "25930";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25940</name>
+            <getter language="irl"><![CDATA[
+            return "25940";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_25990</name>
+            <getter language="irl"><![CDATA[
+            return "25990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26110</name>
+            <getter language="irl"><![CDATA[
+            return "26110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26120</name>
+            <getter language="irl"><![CDATA[
+            return "26120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26200</name>
+            <getter language="irl"><![CDATA[
+            return "26200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26301</name>
+            <getter language="irl"><![CDATA[
+            return "26301";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26309</name>
+            <getter language="irl"><![CDATA[
+            return "26309";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26400</name>
+            <getter language="irl"><![CDATA[
+            return "26400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26511</name>
+            <getter language="irl"><![CDATA[
+            return "26511";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26512</name>
+            <getter language="irl"><![CDATA[
+            return "26512";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26513</name>
+            <getter language="irl"><![CDATA[
+            return "26513";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26514</name>
+            <getter language="irl"><![CDATA[
+            return "26514";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26520</name>
+            <getter language="irl"><![CDATA[
+            return "26520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26600</name>
+            <getter language="irl"><![CDATA[
+            return "26600";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26701</name>
+            <getter language="irl"><![CDATA[
+            return "26701";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26702</name>
+            <getter language="irl"><![CDATA[
+            return "26702";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_26800</name>
+            <getter language="irl"><![CDATA[
+            return "26800";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27110</name>
+            <getter language="irl"><![CDATA[
+            return "27110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27120</name>
+            <getter language="irl"><![CDATA[
+            return "27120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27200</name>
+            <getter language="irl"><![CDATA[
+            return "27200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27310</name>
+            <getter language="irl"><![CDATA[
+            return "27310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27320</name>
+            <getter language="irl"><![CDATA[
+            return "27320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27330</name>
+            <getter language="irl"><![CDATA[
+            return "27330";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27400</name>
+            <getter language="irl"><![CDATA[
+            return "27400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27510</name>
+            <getter language="irl"><![CDATA[
+            return "27510";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27520</name>
+            <getter language="irl"><![CDATA[
+            return "27520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_27900</name>
+            <getter language="irl"><![CDATA[
+            return "27900";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28110</name>
+            <getter language="irl"><![CDATA[
+            return "28110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28120</name>
+            <getter language="irl"><![CDATA[
+            return "28120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28131</name>
+            <getter language="irl"><![CDATA[
+            return "28131";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28132</name>
+            <getter language="irl"><![CDATA[
+            return "28132";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28140</name>
+            <getter language="irl"><![CDATA[
+            return "28140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28150</name>
+            <getter language="irl"><![CDATA[
+            return "28150";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28210</name>
+            <getter language="irl"><![CDATA[
+            return "28210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28220</name>
+            <getter language="irl"><![CDATA[
+            return "28220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28230</name>
+            <getter language="irl"><![CDATA[
+            return "28230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28240</name>
+            <getter language="irl"><![CDATA[
+            return "28240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28250</name>
+            <getter language="irl"><![CDATA[
+            return "28250";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28290</name>
+            <getter language="irl"><![CDATA[
+            return "28290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28301</name>
+            <getter language="irl"><![CDATA[
+            return "28301";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28302</name>
+            <getter language="irl"><![CDATA[
+            return "28302";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28410</name>
+            <getter language="irl"><![CDATA[
+            return "28410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28490</name>
+            <getter language="irl"><![CDATA[
+            return "28490";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28910</name>
+            <getter language="irl"><![CDATA[
+            return "28910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28921</name>
+            <getter language="irl"><![CDATA[
+            return "28921";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28922</name>
+            <getter language="irl"><![CDATA[
+            return "28922";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28923</name>
+            <getter language="irl"><![CDATA[
+            return "28923";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28930</name>
+            <getter language="irl"><![CDATA[
+            return "28930";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28940</name>
+            <getter language="irl"><![CDATA[
+            return "28940";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28950</name>
+            <getter language="irl"><![CDATA[
+            return "28950";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28960</name>
+            <getter language="irl"><![CDATA[
+            return "28960";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_28990</name>
+            <getter language="irl"><![CDATA[
+            return "28990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_29100</name>
+            <getter language="irl"><![CDATA[
+            return "29100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_29201</name>
+            <getter language="irl"><![CDATA[
+            return "29201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_29202</name>
+            <getter language="irl"><![CDATA[
+            return "29202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_29203</name>
+            <getter language="irl"><![CDATA[
+            return "29203";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_29310</name>
+            <getter language="irl"><![CDATA[
+            return "29310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_29320</name>
+            <getter language="irl"><![CDATA[
+            return "29320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30110</name>
+            <getter language="irl"><![CDATA[
+            return "30110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30120</name>
+            <getter language="irl"><![CDATA[
+            return "30120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30200</name>
+            <getter language="irl"><![CDATA[
+            return "30200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30300</name>
+            <getter language="irl"><![CDATA[
+            return "30300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30400</name>
+            <getter language="irl"><![CDATA[
+            return "30400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30910</name>
+            <getter language="irl"><![CDATA[
+            return "30910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30920</name>
+            <getter language="irl"><![CDATA[
+            return "30920";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_30990</name>
+            <getter language="irl"><![CDATA[
+            return "30990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_31010</name>
+            <getter language="irl"><![CDATA[
+            return "31010";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_31020</name>
+            <getter language="irl"><![CDATA[
+            return "31020";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_31030</name>
+            <getter language="irl"><![CDATA[
+            return "31030";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_31090</name>
+            <getter language="irl"><![CDATA[
+            return "31090";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_3110</name>
+            <getter language="irl"><![CDATA[
+            return "3110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_3120</name>
+            <getter language="irl"><![CDATA[
+            return "3120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_3210</name>
+            <getter language="irl"><![CDATA[
+            return "3210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32110</name>
+            <getter language="irl"><![CDATA[
+            return "32110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32120</name>
+            <getter language="irl"><![CDATA[
+            return "32120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32130</name>
+            <getter language="irl"><![CDATA[
+            return "32130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_3220</name>
+            <getter language="irl"><![CDATA[
+            return "3220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32200</name>
+            <getter language="irl"><![CDATA[
+            return "32200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32300</name>
+            <getter language="irl"><![CDATA[
+            return "32300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32401</name>
+            <getter language="irl"><![CDATA[
+            return "32401";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32409</name>
+            <getter language="irl"><![CDATA[
+            return "32409";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32500</name>
+            <getter language="irl"><![CDATA[
+            return "32500";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32910</name>
+            <getter language="irl"><![CDATA[
+            return "32910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_32990</name>
+            <getter language="irl"><![CDATA[
+            return "32990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33110</name>
+            <getter language="irl"><![CDATA[
+            return "33110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33120</name>
+            <getter language="irl"><![CDATA[
+            return "33120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33130</name>
+            <getter language="irl"><![CDATA[
+            return "33130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33140</name>
+            <getter language="irl"><![CDATA[
+            return "33140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33150</name>
+            <getter language="irl"><![CDATA[
+            return "33150";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33160</name>
+            <getter language="irl"><![CDATA[
+            return "33160";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33170</name>
+            <getter language="irl"><![CDATA[
+            return "33170";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33190</name>
+            <getter language="irl"><![CDATA[
+            return "33190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_33200</name>
+            <getter language="irl"><![CDATA[
+            return "33200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35110</name>
+            <getter language="irl"><![CDATA[
+            return "35110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35120</name>
+            <getter language="irl"><![CDATA[
+            return "35120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35130</name>
+            <getter language="irl"><![CDATA[
+            return "35130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35140</name>
+            <getter language="irl"><![CDATA[
+            return "35140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35210</name>
+            <getter language="irl"><![CDATA[
+            return "35210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35220</name>
+            <getter language="irl"><![CDATA[
+            return "35220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35230</name>
+            <getter language="irl"><![CDATA[
+            return "35230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_35300</name>
+            <getter language="irl"><![CDATA[
+            return "35300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_36000</name>
+            <getter language="irl"><![CDATA[
+            return "36000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_37000</name>
+            <getter language="irl"><![CDATA[
+            return "37000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_38110</name>
+            <getter language="irl"><![CDATA[
+            return "38110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_38120</name>
+            <getter language="irl"><![CDATA[
+            return "38120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_38210</name>
+            <getter language="irl"><![CDATA[
+            return "38210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_38220</name>
+            <getter language="irl"><![CDATA[
+            return "38220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_38310</name>
+            <getter language="irl"><![CDATA[
+            return "38310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_38320</name>
+            <getter language="irl"><![CDATA[
+            return "38320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_39000</name>
+            <getter language="irl"><![CDATA[
+            return "39000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_41100</name>
+            <getter language="irl"><![CDATA[
+            return "41100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_41201</name>
+            <getter language="irl"><![CDATA[
+            return "41201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_41202</name>
+            <getter language="irl"><![CDATA[
+            return "41202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_42110</name>
+            <getter language="irl"><![CDATA[
+            return "42110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_42120</name>
+            <getter language="irl"><![CDATA[
+            return "42120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_42130</name>
+            <getter language="irl"><![CDATA[
+            return "42130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_42210</name>
+            <getter language="irl"><![CDATA[
+            return "42210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_42220</name>
+            <getter language="irl"><![CDATA[
+            return "42220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_42910</name>
+            <getter language="irl"><![CDATA[
+            return "42910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_42990</name>
+            <getter language="irl"><![CDATA[
+            return "42990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43110</name>
+            <getter language="irl"><![CDATA[
+            return "43110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43120</name>
+            <getter language="irl"><![CDATA[
+            return "43120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43130</name>
+            <getter language="irl"><![CDATA[
+            return "43130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43210</name>
+            <getter language="irl"><![CDATA[
+            return "43210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43220</name>
+            <getter language="irl"><![CDATA[
+            return "43220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43290</name>
+            <getter language="irl"><![CDATA[
+            return "43290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43310</name>
+            <getter language="irl"><![CDATA[
+            return "43310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43320</name>
+            <getter language="irl"><![CDATA[
+            return "43320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43330</name>
+            <getter language="irl"><![CDATA[
+            return "43330";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43341</name>
+            <getter language="irl"><![CDATA[
+            return "43341";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43342</name>
+            <getter language="irl"><![CDATA[
+            return "43342";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43390</name>
+            <getter language="irl"><![CDATA[
+            return "43390";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43910</name>
+            <getter language="irl"><![CDATA[
+            return "43910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43991</name>
+            <getter language="irl"><![CDATA[
+            return "43991";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_43999</name>
+            <getter language="irl"><![CDATA[
+            return "43999";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_45111</name>
+            <getter language="irl"><![CDATA[
+            return "45111";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_45112</name>
+            <getter language="irl"><![CDATA[
+            return "45112";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_45190</name>
+            <getter language="irl"><![CDATA[
+            return "45190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_45200</name>
+            <getter language="irl"><![CDATA[
+            return "45200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_45310</name>
+            <getter language="irl"><![CDATA[
+            return "45310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_45320</name>
+            <getter language="irl"><![CDATA[
+            return "45320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_45400</name>
+            <getter language="irl"><![CDATA[
+            return "45400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46110</name>
+            <getter language="irl"><![CDATA[
+            return "46110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46120</name>
+            <getter language="irl"><![CDATA[
+            return "46120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46130</name>
+            <getter language="irl"><![CDATA[
+            return "46130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46140</name>
+            <getter language="irl"><![CDATA[
+            return "46140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46150</name>
+            <getter language="irl"><![CDATA[
+            return "46150";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46160</name>
+            <getter language="irl"><![CDATA[
+            return "46160";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46170</name>
+            <getter language="irl"><![CDATA[
+            return "46170";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46180</name>
+            <getter language="irl"><![CDATA[
+            return "46180";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46190</name>
+            <getter language="irl"><![CDATA[
+            return "46190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46210</name>
+            <getter language="irl"><![CDATA[
+            return "46210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46220</name>
+            <getter language="irl"><![CDATA[
+            return "46220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46230</name>
+            <getter language="irl"><![CDATA[
+            return "46230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46240</name>
+            <getter language="irl"><![CDATA[
+            return "46240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46310</name>
+            <getter language="irl"><![CDATA[
+            return "46310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46320</name>
+            <getter language="irl"><![CDATA[
+            return "46320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46330</name>
+            <getter language="irl"><![CDATA[
+            return "46330";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46341</name>
+            <getter language="irl"><![CDATA[
+            return "46341";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46342</name>
+            <getter language="irl"><![CDATA[
+            return "46342";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46350</name>
+            <getter language="irl"><![CDATA[
+            return "46350";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46360</name>
+            <getter language="irl"><![CDATA[
+            return "46360";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46370</name>
+            <getter language="irl"><![CDATA[
+            return "46370";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46380</name>
+            <getter language="irl"><![CDATA[
+            return "46380";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46390</name>
+            <getter language="irl"><![CDATA[
+            return "46390";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46410</name>
+            <getter language="irl"><![CDATA[
+            return "46410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46420</name>
+            <getter language="irl"><![CDATA[
+            return "46420";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46431</name>
+            <getter language="irl"><![CDATA[
+            return "46431";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46439</name>
+            <getter language="irl"><![CDATA[
+            return "46439";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46440</name>
+            <getter language="irl"><![CDATA[
+            return "46440";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46450</name>
+            <getter language="irl"><![CDATA[
+            return "46450";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46460</name>
+            <getter language="irl"><![CDATA[
+            return "46460";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46470</name>
+            <getter language="irl"><![CDATA[
+            return "46470";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46480</name>
+            <getter language="irl"><![CDATA[
+            return "46480";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46491</name>
+            <getter language="irl"><![CDATA[
+            return "46491";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46499</name>
+            <getter language="irl"><![CDATA[
+            return "46499";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46510</name>
+            <getter language="irl"><![CDATA[
+            return "46510";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46520</name>
+            <getter language="irl"><![CDATA[
+            return "46520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46610</name>
+            <getter language="irl"><![CDATA[
+            return "46610";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46620</name>
+            <getter language="irl"><![CDATA[
+            return "46620";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46630</name>
+            <getter language="irl"><![CDATA[
+            return "46630";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46640</name>
+            <getter language="irl"><![CDATA[
+            return "46640";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46650</name>
+            <getter language="irl"><![CDATA[
+            return "46650";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46660</name>
+            <getter language="irl"><![CDATA[
+            return "46660";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46690</name>
+            <getter language="irl"><![CDATA[
+            return "46690";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46711</name>
+            <getter language="irl"><![CDATA[
+            return "46711";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46719</name>
+            <getter language="irl"><![CDATA[
+            return "46719";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46720</name>
+            <getter language="irl"><![CDATA[
+            return "46720";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46730</name>
+            <getter language="irl"><![CDATA[
+            return "46730";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46740</name>
+            <getter language="irl"><![CDATA[
+            return "46740";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46750</name>
+            <getter language="irl"><![CDATA[
+            return "46750";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46760</name>
+            <getter language="irl"><![CDATA[
+            return "46760";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46770</name>
+            <getter language="irl"><![CDATA[
+            return "46770";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_46900</name>
+            <getter language="irl"><![CDATA[
+            return "46900";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47110</name>
+            <getter language="irl"><![CDATA[
+            return "47110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47190</name>
+            <getter language="irl"><![CDATA[
+            return "47190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47210</name>
+            <getter language="irl"><![CDATA[
+            return "47210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47220</name>
+            <getter language="irl"><![CDATA[
+            return "47220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47230</name>
+            <getter language="irl"><![CDATA[
+            return "47230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47240</name>
+            <getter language="irl"><![CDATA[
+            return "47240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47250</name>
+            <getter language="irl"><![CDATA[
+            return "47250";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47260</name>
+            <getter language="irl"><![CDATA[
+            return "47260";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47290</name>
+            <getter language="irl"><![CDATA[
+            return "47290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47300</name>
+            <getter language="irl"><![CDATA[
+            return "47300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47410</name>
+            <getter language="irl"><![CDATA[
+            return "47410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47421</name>
+            <getter language="irl"><![CDATA[
+            return "47421";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47429</name>
+            <getter language="irl"><![CDATA[
+            return "47429";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47430</name>
+            <getter language="irl"><![CDATA[
+            return "47430";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47510</name>
+            <getter language="irl"><![CDATA[
+            return "47510";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47520</name>
+            <getter language="irl"><![CDATA[
+            return "47520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47530</name>
+            <getter language="irl"><![CDATA[
+            return "47530";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47540</name>
+            <getter language="irl"><![CDATA[
+            return "47540";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47591</name>
+            <getter language="irl"><![CDATA[
+            return "47591";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47599</name>
+            <getter language="irl"><![CDATA[
+            return "47599";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47610</name>
+            <getter language="irl"><![CDATA[
+            return "47610";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47620</name>
+            <getter language="irl"><![CDATA[
+            return "47620";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47630</name>
+            <getter language="irl"><![CDATA[
+            return "47630";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47640</name>
+            <getter language="irl"><![CDATA[
+            return "47640";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47650</name>
+            <getter language="irl"><![CDATA[
+            return "47650";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47710</name>
+            <getter language="irl"><![CDATA[
+            return "47710";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47721</name>
+            <getter language="irl"><![CDATA[
+            return "47721";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47722</name>
+            <getter language="irl"><![CDATA[
+            return "47722";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47730</name>
+            <getter language="irl"><![CDATA[
+            return "47730";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47741</name>
+            <getter language="irl"><![CDATA[
+            return "47741";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47749</name>
+            <getter language="irl"><![CDATA[
+            return "47749";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47750</name>
+            <getter language="irl"><![CDATA[
+            return "47750";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47760</name>
+            <getter language="irl"><![CDATA[
+            return "47760";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47770</name>
+            <getter language="irl"><![CDATA[
+            return "47770";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47781</name>
+            <getter language="irl"><![CDATA[
+            return "47781";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47782</name>
+            <getter language="irl"><![CDATA[
+            return "47782";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47789</name>
+            <getter language="irl"><![CDATA[
+            return "47789";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47791</name>
+            <getter language="irl"><![CDATA[
+            return "47791";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47799</name>
+            <getter language="irl"><![CDATA[
+            return "47799";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47810</name>
+            <getter language="irl"><![CDATA[
+            return "47810";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47820</name>
+            <getter language="irl"><![CDATA[
+            return "47820";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47890</name>
+            <getter language="irl"><![CDATA[
+            return "47890";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47910</name>
+            <getter language="irl"><![CDATA[
+            return "47910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_47990</name>
+            <getter language="irl"><![CDATA[
+            return "47990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49100</name>
+            <getter language="irl"><![CDATA[
+            return "49100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49200</name>
+            <getter language="irl"><![CDATA[
+            return "49200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49311</name>
+            <getter language="irl"><![CDATA[
+            return "49311";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49319</name>
+            <getter language="irl"><![CDATA[
+            return "49319";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49320</name>
+            <getter language="irl"><![CDATA[
+            return "49320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49390</name>
+            <getter language="irl"><![CDATA[
+            return "49390";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49410</name>
+            <getter language="irl"><![CDATA[
+            return "49410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49420</name>
+            <getter language="irl"><![CDATA[
+            return "49420";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_49500</name>
+            <getter language="irl"><![CDATA[
+            return "49500";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_50100</name>
+            <getter language="irl"><![CDATA[
+            return "50100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_50200</name>
+            <getter language="irl"><![CDATA[
+            return "50200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_50300</name>
+            <getter language="irl"><![CDATA[
+            return "50300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_50400</name>
+            <getter language="irl"><![CDATA[
+            return "50400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_5101</name>
+            <getter language="irl"><![CDATA[
+            return "5101";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_5102</name>
+            <getter language="irl"><![CDATA[
+            return "5102";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_51101</name>
+            <getter language="irl"><![CDATA[
+            return "51101";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_51102</name>
+            <getter language="irl"><![CDATA[
+            return "51102";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_51210</name>
+            <getter language="irl"><![CDATA[
+            return "51210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_51220</name>
+            <getter language="irl"><![CDATA[
+            return "51220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_5200</name>
+            <getter language="irl"><![CDATA[
+            return "5200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52101</name>
+            <getter language="irl"><![CDATA[
+            return "52101";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52102</name>
+            <getter language="irl"><![CDATA[
+            return "52102";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52103</name>
+            <getter language="irl"><![CDATA[
+            return "52103";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52211</name>
+            <getter language="irl"><![CDATA[
+            return "52211";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52212</name>
+            <getter language="irl"><![CDATA[
+            return "52212";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52213</name>
+            <getter language="irl"><![CDATA[
+            return "52213";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52219</name>
+            <getter language="irl"><![CDATA[
+            return "52219";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52220</name>
+            <getter language="irl"><![CDATA[
+            return "52220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52230</name>
+            <getter language="irl"><![CDATA[
+            return "52230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52241</name>
+            <getter language="irl"><![CDATA[
+            return "52241";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52242</name>
+            <getter language="irl"><![CDATA[
+            return "52242";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52243</name>
+            <getter language="irl"><![CDATA[
+            return "52243";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_52290</name>
+            <getter language="irl"><![CDATA[
+            return "52290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_53100</name>
+            <getter language="irl"><![CDATA[
+            return "53100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_53201</name>
+            <getter language="irl"><![CDATA[
+            return "53201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_53202</name>
+            <getter language="irl"><![CDATA[
+            return "53202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_55100</name>
+            <getter language="irl"><![CDATA[
+            return "55100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_55201</name>
+            <getter language="irl"><![CDATA[
+            return "55201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_55202</name>
+            <getter language="irl"><![CDATA[
+            return "55202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_55209</name>
+            <getter language="irl"><![CDATA[
+            return "55209";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_55300</name>
+            <getter language="irl"><![CDATA[
+            return "55300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_55900</name>
+            <getter language="irl"><![CDATA[
+            return "55900";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_56101</name>
+            <getter language="irl"><![CDATA[
+            return "56101";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_56102</name>
+            <getter language="irl"><![CDATA[
+            return "56102";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_56103</name>
+            <getter language="irl"><![CDATA[
+            return "56103";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_56210</name>
+            <getter language="irl"><![CDATA[
+            return "56210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_56290</name>
+            <getter language="irl"><![CDATA[
+            return "56290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_56301</name>
+            <getter language="irl"><![CDATA[
+            return "56301";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_56302</name>
+            <getter language="irl"><![CDATA[
+            return "56302";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58110</name>
+            <getter language="irl"><![CDATA[
+            return "58110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58120</name>
+            <getter language="irl"><![CDATA[
+            return "58120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58130</name>
+            <getter language="irl"><![CDATA[
+            return "58130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58141</name>
+            <getter language="irl"><![CDATA[
+            return "58141";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58142</name>
+            <getter language="irl"><![CDATA[
+            return "58142";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58190</name>
+            <getter language="irl"><![CDATA[
+            return "58190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58210</name>
+            <getter language="irl"><![CDATA[
+            return "58210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_58290</name>
+            <getter language="irl"><![CDATA[
+            return "58290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59111</name>
+            <getter language="irl"><![CDATA[
+            return "59111";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59112</name>
+            <getter language="irl"><![CDATA[
+            return "59112";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59113</name>
+            <getter language="irl"><![CDATA[
+            return "59113";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59120</name>
+            <getter language="irl"><![CDATA[
+            return "59120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59131</name>
+            <getter language="irl"><![CDATA[
+            return "59131";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59132</name>
+            <getter language="irl"><![CDATA[
+            return "59132";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59133</name>
+            <getter language="irl"><![CDATA[
+            return "59133";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59140</name>
+            <getter language="irl"><![CDATA[
+            return "59140";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_59200</name>
+            <getter language="irl"><![CDATA[
+            return "59200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_60100</name>
+            <getter language="irl"><![CDATA[
+            return "60100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_60200</name>
+            <getter language="irl"><![CDATA[
+            return "60200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_6100</name>
+            <getter language="irl"><![CDATA[
+            return "6100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_61100</name>
+            <getter language="irl"><![CDATA[
+            return "61100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_61200</name>
+            <getter language="irl"><![CDATA[
+            return "61200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_61300</name>
+            <getter language="irl"><![CDATA[
+            return "61300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_61900</name>
+            <getter language="irl"><![CDATA[
+            return "61900";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_6200</name>
+            <getter language="irl"><![CDATA[
+            return "6200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_62011</name>
+            <getter language="irl"><![CDATA[
+            return "62011";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_62012</name>
+            <getter language="irl"><![CDATA[
+            return "62012";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_62020</name>
+            <getter language="irl"><![CDATA[
+            return "62020";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_62030</name>
+            <getter language="irl"><![CDATA[
+            return "62030";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_62090</name>
+            <getter language="irl"><![CDATA[
+            return "62090";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_63110</name>
+            <getter language="irl"><![CDATA[
+            return "63110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_63120</name>
+            <getter language="irl"><![CDATA[
+            return "63120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_63910</name>
+            <getter language="irl"><![CDATA[
+            return "63910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_63990</name>
+            <getter language="irl"><![CDATA[
+            return "63990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64110</name>
+            <getter language="irl"><![CDATA[
+            return "64110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64191</name>
+            <getter language="irl"><![CDATA[
+            return "64191";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64192</name>
+            <getter language="irl"><![CDATA[
+            return "64192";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64201</name>
+            <getter language="irl"><![CDATA[
+            return "64201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64202</name>
+            <getter language="irl"><![CDATA[
+            return "64202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64203</name>
+            <getter language="irl"><![CDATA[
+            return "64203";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64204</name>
+            <getter language="irl"><![CDATA[
+            return "64204";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64205</name>
+            <getter language="irl"><![CDATA[
+            return "64205";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64209</name>
+            <getter language="irl"><![CDATA[
+            return "64209";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64301</name>
+            <getter language="irl"><![CDATA[
+            return "64301";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64302</name>
+            <getter language="irl"><![CDATA[
+            return "64302";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64303</name>
+            <getter language="irl"><![CDATA[
+            return "64303";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64304</name>
+            <getter language="irl"><![CDATA[
+            return "64304";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64305</name>
+            <getter language="irl"><![CDATA[
+            return "64305";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64306</name>
+            <getter language="irl"><![CDATA[
+            return "64306";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64910</name>
+            <getter language="irl"><![CDATA[
+            return "64910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64921</name>
+            <getter language="irl"><![CDATA[
+            return "64921";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64922</name>
+            <getter language="irl"><![CDATA[
+            return "64922";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64929</name>
+            <getter language="irl"><![CDATA[
+            return "64929";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64991</name>
+            <getter language="irl"><![CDATA[
+            return "64991";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64992</name>
+            <getter language="irl"><![CDATA[
+            return "64992";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_64999</name>
+            <getter language="irl"><![CDATA[
+            return "64999";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_65110</name>
+            <getter language="irl"><![CDATA[
+            return "65110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_65120</name>
+            <getter language="irl"><![CDATA[
+            return "65120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_65201</name>
+            <getter language="irl"><![CDATA[
+            return "65201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_65202</name>
+            <getter language="irl"><![CDATA[
+            return "65202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_65300</name>
+            <getter language="irl"><![CDATA[
+            return "65300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_66110</name>
+            <getter language="irl"><![CDATA[
+            return "66110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_66120</name>
+            <getter language="irl"><![CDATA[
+            return "66120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_66190</name>
+            <getter language="irl"><![CDATA[
+            return "66190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_66210</name>
+            <getter language="irl"><![CDATA[
+            return "66210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_66220</name>
+            <getter language="irl"><![CDATA[
+            return "66220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_66290</name>
+            <getter language="irl"><![CDATA[
+            return "66290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_66300</name>
+            <getter language="irl"><![CDATA[
+            return "66300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_68100</name>
+            <getter language="irl"><![CDATA[
+            return "68100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_68201</name>
+            <getter language="irl"><![CDATA[
+            return "68201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_68202</name>
+            <getter language="irl"><![CDATA[
+            return "68202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_68209</name>
+            <getter language="irl"><![CDATA[
+            return "68209";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_68310</name>
+            <getter language="irl"><![CDATA[
+            return "68310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_68320</name>
+            <getter language="irl"><![CDATA[
+            return "68320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_69101</name>
+            <getter language="irl"><![CDATA[
+            return "69101";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_69102</name>
+            <getter language="irl"><![CDATA[
+            return "69102";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_69109</name>
+            <getter language="irl"><![CDATA[
+            return "69109";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_69201</name>
+            <getter language="irl"><![CDATA[
+            return "69201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_69202</name>
+            <getter language="irl"><![CDATA[
+            return "69202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_69203</name>
+            <getter language="irl"><![CDATA[
+            return "69203";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_70100</name>
+            <getter language="irl"><![CDATA[
+            return "70100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_70210</name>
+            <getter language="irl"><![CDATA[
+            return "70210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_70221</name>
+            <getter language="irl"><![CDATA[
+            return "70221";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_70229</name>
+            <getter language="irl"><![CDATA[
+            return "70229";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_7100</name>
+            <getter language="irl"><![CDATA[
+            return "7100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_71111</name>
+            <getter language="irl"><![CDATA[
+            return "71111";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_71112</name>
+            <getter language="irl"><![CDATA[
+            return "71112";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_71121</name>
+            <getter language="irl"><![CDATA[
+            return "71121";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_71122</name>
+            <getter language="irl"><![CDATA[
+            return "71122";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_71129</name>
+            <getter language="irl"><![CDATA[
+            return "71129";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_71200</name>
+            <getter language="irl"><![CDATA[
+            return "71200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_7210</name>
+            <getter language="irl"><![CDATA[
+            return "7210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_72110</name>
+            <getter language="irl"><![CDATA[
+            return "72110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_72190</name>
+            <getter language="irl"><![CDATA[
+            return "72190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_72200</name>
+            <getter language="irl"><![CDATA[
+            return "72200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_7290</name>
+            <getter language="irl"><![CDATA[
+            return "7290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_73110</name>
+            <getter language="irl"><![CDATA[
+            return "73110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_73120</name>
+            <getter language="irl"><![CDATA[
+            return "73120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_73200</name>
+            <getter language="irl"><![CDATA[
+            return "73200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74100</name>
+            <getter language="irl"><![CDATA[
+            return "74100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74201</name>
+            <getter language="irl"><![CDATA[
+            return "74201";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74202</name>
+            <getter language="irl"><![CDATA[
+            return "74202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74203</name>
+            <getter language="irl"><![CDATA[
+            return "74203";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74209</name>
+            <getter language="irl"><![CDATA[
+            return "74209";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74300</name>
+            <getter language="irl"><![CDATA[
+            return "74300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74901</name>
+            <getter language="irl"><![CDATA[
+            return "74901";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74902</name>
+            <getter language="irl"><![CDATA[
+            return "74902";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74909</name>
+            <getter language="irl"><![CDATA[
+            return "74909";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_74990</name>
+            <getter language="irl"><![CDATA[
+            return "74990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_75000</name>
+            <getter language="irl"><![CDATA[
+            return "75000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77110</name>
+            <getter language="irl"><![CDATA[
+            return "77110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77120</name>
+            <getter language="irl"><![CDATA[
+            return "77120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77210</name>
+            <getter language="irl"><![CDATA[
+            return "77210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77220</name>
+            <getter language="irl"><![CDATA[
+            return "77220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77291</name>
+            <getter language="irl"><![CDATA[
+            return "77291";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77299</name>
+            <getter language="irl"><![CDATA[
+            return "77299";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77310</name>
+            <getter language="irl"><![CDATA[
+            return "77310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77320</name>
+            <getter language="irl"><![CDATA[
+            return "77320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77330</name>
+            <getter language="irl"><![CDATA[
+            return "77330";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77341</name>
+            <getter language="irl"><![CDATA[
+            return "77341";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77342</name>
+            <getter language="irl"><![CDATA[
+            return "77342";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77351</name>
+            <getter language="irl"><![CDATA[
+            return "77351";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77352</name>
+            <getter language="irl"><![CDATA[
+            return "77352";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77390</name>
+            <getter language="irl"><![CDATA[
+            return "77390";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_77400</name>
+            <getter language="irl"><![CDATA[
+            return "77400";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_78101</name>
+            <getter language="irl"><![CDATA[
+            return "78101";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_78109</name>
+            <getter language="irl"><![CDATA[
+            return "78109";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_78200</name>
+            <getter language="irl"><![CDATA[
+            return "78200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_78300</name>
+            <getter language="irl"><![CDATA[
+            return "78300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_79110</name>
+            <getter language="irl"><![CDATA[
+            return "79110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_79120</name>
+            <getter language="irl"><![CDATA[
+            return "79120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_79901</name>
+            <getter language="irl"><![CDATA[
+            return "79901";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_79909</name>
+            <getter language="irl"><![CDATA[
+            return "79909";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_80100</name>
+            <getter language="irl"><![CDATA[
+            return "80100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_80200</name>
+            <getter language="irl"><![CDATA[
+            return "80200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_80300</name>
+            <getter language="irl"><![CDATA[
+            return "80300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_8110</name>
+            <getter language="irl"><![CDATA[
+            return "8110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81100</name>
+            <getter language="irl"><![CDATA[
+            return "81100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_8120</name>
+            <getter language="irl"><![CDATA[
+            return "8120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81210</name>
+            <getter language="irl"><![CDATA[
+            return "81210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81221</name>
+            <getter language="irl"><![CDATA[
+            return "81221";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81222</name>
+            <getter language="irl"><![CDATA[
+            return "81222";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81223</name>
+            <getter language="irl"><![CDATA[
+            return "81223";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81229</name>
+            <getter language="irl"><![CDATA[
+            return "81229";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81291</name>
+            <getter language="irl"><![CDATA[
+            return "81291";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81299</name>
+            <getter language="irl"><![CDATA[
+            return "81299";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_81300</name>
+            <getter language="irl"><![CDATA[
+            return "81300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82110</name>
+            <getter language="irl"><![CDATA[
+            return "82110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82190</name>
+            <getter language="irl"><![CDATA[
+            return "82190";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82200</name>
+            <getter language="irl"><![CDATA[
+            return "82200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82301</name>
+            <getter language="irl"><![CDATA[
+            return "82301";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82302</name>
+            <getter language="irl"><![CDATA[
+            return "82302";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82911</name>
+            <getter language="irl"><![CDATA[
+            return "82911";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82912</name>
+            <getter language="irl"><![CDATA[
+            return "82912";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82920</name>
+            <getter language="irl"><![CDATA[
+            return "82920";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_82990</name>
+            <getter language="irl"><![CDATA[
+            return "82990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84110</name>
+            <getter language="irl"><![CDATA[
+            return "84110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84120</name>
+            <getter language="irl"><![CDATA[
+            return "84120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84130</name>
+            <getter language="irl"><![CDATA[
+            return "84130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84210</name>
+            <getter language="irl"><![CDATA[
+            return "84210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84220</name>
+            <getter language="irl"><![CDATA[
+            return "84220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84230</name>
+            <getter language="irl"><![CDATA[
+            return "84230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84240</name>
+            <getter language="irl"><![CDATA[
+            return "84240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84250</name>
+            <getter language="irl"><![CDATA[
+            return "84250";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_84300</name>
+            <getter language="irl"><![CDATA[
+            return "84300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85100</name>
+            <getter language="irl"><![CDATA[
+            return "85100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85200</name>
+            <getter language="irl"><![CDATA[
+            return "85200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85310</name>
+            <getter language="irl"><![CDATA[
+            return "85310";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85320</name>
+            <getter language="irl"><![CDATA[
+            return "85320";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85410</name>
+            <getter language="irl"><![CDATA[
+            return "85410";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85421</name>
+            <getter language="irl"><![CDATA[
+            return "85421";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85422</name>
+            <getter language="irl"><![CDATA[
+            return "85422";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85510</name>
+            <getter language="irl"><![CDATA[
+            return "85510";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85520</name>
+            <getter language="irl"><![CDATA[
+            return "85520";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85530</name>
+            <getter language="irl"><![CDATA[
+            return "85530";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85590</name>
+            <getter language="irl"><![CDATA[
+            return "85590";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_85600</name>
+            <getter language="irl"><![CDATA[
+            return "85600";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_86101</name>
+            <getter language="irl"><![CDATA[
+            return "86101";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_86102</name>
+            <getter language="irl"><![CDATA[
+            return "86102";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_86210</name>
+            <getter language="irl"><![CDATA[
+            return "86210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_86220</name>
+            <getter language="irl"><![CDATA[
+            return "86220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_86230</name>
+            <getter language="irl"><![CDATA[
+            return "86230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_86900</name>
+            <getter language="irl"><![CDATA[
+            return "86900";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_87100</name>
+            <getter language="irl"><![CDATA[
+            return "87100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_87200</name>
+            <getter language="irl"><![CDATA[
+            return "87200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_87300</name>
+            <getter language="irl"><![CDATA[
+            return "87300";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_87900</name>
+            <getter language="irl"><![CDATA[
+            return "87900";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_88100</name>
+            <getter language="irl"><![CDATA[
+            return "88100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_88910</name>
+            <getter language="irl"><![CDATA[
+            return "88910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_88990</name>
+            <getter language="irl"><![CDATA[
+            return "88990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_8910</name>
+            <getter language="irl"><![CDATA[
+            return "8910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_8920</name>
+            <getter language="irl"><![CDATA[
+            return "8920";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_8930</name>
+            <getter language="irl"><![CDATA[
+            return "8930";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_8990</name>
+            <getter language="irl"><![CDATA[
+            return "8990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_90010</name>
+            <getter language="irl"><![CDATA[
+            return "90010";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_90020</name>
+            <getter language="irl"><![CDATA[
+            return "90020";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_90030</name>
+            <getter language="irl"><![CDATA[
+            return "90030";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_90040</name>
+            <getter language="irl"><![CDATA[
+            return "90040";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_9100</name>
+            <getter language="irl"><![CDATA[
+            return "9100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_91011</name>
+            <getter language="irl"><![CDATA[
+            return "91011";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_91012</name>
+            <getter language="irl"><![CDATA[
+            return "91012";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_91020</name>
+            <getter language="irl"><![CDATA[
+            return "91020";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_91030</name>
+            <getter language="irl"><![CDATA[
+            return "91030";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_91040</name>
+            <getter language="irl"><![CDATA[
+            return "91040";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_92000</name>
+            <getter language="irl"><![CDATA[
+            return "92000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_93110</name>
+            <getter language="irl"><![CDATA[
+            return "93110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_93120</name>
+            <getter language="irl"><![CDATA[
+            return "93120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_93130</name>
+            <getter language="irl"><![CDATA[
+            return "93130";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_93191</name>
+            <getter language="irl"><![CDATA[
+            return "93191";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_93199</name>
+            <getter language="irl"><![CDATA[
+            return "93199";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_93210</name>
+            <getter language="irl"><![CDATA[
+            return "93210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_93290</name>
+            <getter language="irl"><![CDATA[
+            return "93290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_94110</name>
+            <getter language="irl"><![CDATA[
+            return "94110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_94120</name>
+            <getter language="irl"><![CDATA[
+            return "94120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_94200</name>
+            <getter language="irl"><![CDATA[
+            return "94200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_94910</name>
+            <getter language="irl"><![CDATA[
+            return "94910";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_94920</name>
+            <getter language="irl"><![CDATA[
+            return "94920";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_94990</name>
+            <getter language="irl"><![CDATA[
+            return "94990";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95110</name>
+            <getter language="irl"><![CDATA[
+            return "95110";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95120</name>
+            <getter language="irl"><![CDATA[
+            return "95120";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95210</name>
+            <getter language="irl"><![CDATA[
+            return "95210";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95220</name>
+            <getter language="irl"><![CDATA[
+            return "95220";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95230</name>
+            <getter language="irl"><![CDATA[
+            return "95230";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95240</name>
+            <getter language="irl"><![CDATA[
+            return "95240";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95250</name>
+            <getter language="irl"><![CDATA[
+            return "95250";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_95290</name>
+            <getter language="irl"><![CDATA[
+            return "95290";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_96010</name>
+            <getter language="irl"><![CDATA[
+            return "96010";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_96020</name>
+            <getter language="irl"><![CDATA[
+            return "96020";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_96030</name>
+            <getter language="irl"><![CDATA[
+            return "96030";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_96040</name>
+            <getter language="irl"><![CDATA[
+            return "96040";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_96090</name>
+            <getter language="irl"><![CDATA[
+            return "96090";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_97000</name>
+            <getter language="irl"><![CDATA[
+            return "97000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_98000</name>
+            <getter language="irl"><![CDATA[
+            return "98000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_98100</name>
+            <getter language="irl"><![CDATA[
+            return "98100";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_98200</name>
+            <getter language="irl"><![CDATA[
+            return "98200";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_9900</name>
+            <getter language="irl"><![CDATA[
+            return "9900";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_99000</name>
+            <getter language="irl"><![CDATA[
+            return "99000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sic_99999</name>
+            <getter language="irl"><![CDATA[
+            return "99999";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>SectorCodesDomain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>sector_10_Purchases</name>
+            <getter language="irl"><![CDATA[
+            return "10";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sector_134_MWSS</name>
+            <getter language="irl"><![CDATA[
+            return "134";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sector_17_Stocks</name>
+            <getter language="irl"><![CDATA[
+            return "17";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sector_19_CAPEX</name>
+            <getter language="irl"><![CDATA[
+            return "19";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sector_202_ABS</name>
+            <getter language="irl"><![CDATA[
+            return "202";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sector_221_BRES</name>
+            <getter language="irl"><![CDATA[
+            return "221";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sector_23_RSI</name>
+            <getter language="irl"><![CDATA[
+            return "23";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>sector_9_MBS</name>
+            <getter language="irl"><![CDATA[
+            return "9";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>VirtualMethods</businessName>
+        <executionName>java.lang.Object</executionName>
+        <import>java.lang.System</import>
+        <import>java.lang.String</import>
+        <method>
+            <name>MappingRule</name>
+            <parameter type="java.lang.String[]"/>
+            <parameter type="java.lang.String[]"/>
+            <parameter type="java.lang.String[]"/>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String[]"/>
+            <body language="arl"><![CDATA[
+            return;
+            ]]></body>
+        </method>
+        <method>
+            <name>cleanName</name>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            //rulename = rulename.replace("$_$", "_");
+//rulename = rulename.replace("$45$", "-");
+return  ilog.rules.brl.IlrNameUtil.getBusinessIdentifier(rulename);
+            ]]></body>
+        </method>
+        <method>
+            <name>countryName</name>
+            <parameter type="CountriesDomain"/>
+            <body language="arl"><![CDATA[
+            return country;
+            ]]></body>
+        </method>
+        <method>
+            <name>dateMinusXDays</name>
+            <parameter type="java.util.Date"/>
+            <parameter type="int"/>
+            <body language="arl"><![CDATA[
+            int MILLISECS_TO_DAYS = 1000 * 60 * 60 * 24;
+long newdate = date.getTime() - (days *  MILLISECS_TO_DAYS ); 
+//java.lang.System.out.println("~~~ 'VirtuaMethods.dateMinusXDays' called with '"+date+"'  is about to return "+new java.util.Date(newdate).toString());
+return new java.util.Date(newdate);
+            ]]></body>
+        </method>
+        <method>
+            <name>datePlusXDays</name>
+            <parameter type="java.util.Date"/>
+            <parameter type="int"/>
+            <body language="arl"><![CDATA[
+            int MILLISECS_TO_DAYS = 1000 * 60 * 60 * 24;
+long newdate = date.getTime() + (days *  MILLISECS_TO_DAYS ); 
+//java.lang.System.out.println("~~~ 'VirtuaMethods.datePlusXDays' called with '"+date+"'  is about to return "+new java.util.Date(newdate).toString());
+return new java.util.Date(newdate);
+            ]]></body>
+        </method>
+        <method>
+            <name>daysBetween</name>
+            <parameter type="java.util.Date"/>
+            <parameter type="java.util.Date"/>
+            <body language="arl"><![CDATA[
+            long MILLISECS_TO_DAYS = 1000 * 60 * 60 * 24;
+long diff = (first.getTime() - second.getTime()) / MILLISECS_TO_DAYS ; 
+return (int)diff;  // -- Whole numbers of days only so 7.9 days would be returned as 7
+// -- If dates are in wrong order then a negative date will be returned
+            ]]></body>
+        </method>
+        <method>
+            <name>equalsIgnoringCase</name>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            return ( text1.toLowerCase().equals(text2.toLowerCase()) ) ;
+            ]]></body>
+        </method>
+        <method>
+            <name>regexMatch</name>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            return textString.matches(expression);
+            ]]></body>
+        </method>
+        <method>
+            <name>regexMatch2</name>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            return true;
+            ]]></body>
+        </method>
+        <method>
+            <name>reversibleLookup1to1</name>
+            <parameter type="int"/>
+            <parameter type="java.lang.String"/>
+            <parameter type="int"/>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            if ( !useReverse) {
+	if (InputValues[indexA-1].equals(valueA)) {
+		OutputValues[indexB-1] = valueB;
+		System.out.println("FORWARD lookup matched "+valueA+" to "+valueB );
+	}		
+}
+else { // -- Backward. Do we need to swap indexA and B here ???
+	if (InputValues[indexB-1].equals(valueB)) {	
+		OutputValues[indexA-1] = valueA;
+		System.out.println("REVERSE lookup matched "+valueB+" to "+valueA);
+	}
+}
+            ]]></body>
+        </method>
+        <method>
+            <name>setStringArrayItemTo</name>
+            <parameter type="int"/>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            if (item <= 0) {
+	System.out.println("~~~ VirtualMethods.setStringArrayItemTo called with 0 or negative index. Please use 1 or more. Ignoring");	
+	return;
+}
+ else {
+ 	// -- Implement AUTO scaling output string array !!! to avoid nulls in unused elements
+ 	// -- e.g. if previous array was length 2 and we are setting 3rd element then create new array[3] and copy values 1,2  
+	String[] bigArray;
+	if (item > OutputValues.length) {
+//		System.out.println("~~~ VirtualMethods.setStringArrayItemTo Increasing Size of OutputValues to "+ item);	
+		 bigArray= new String[item]; // -- May leave gaps if item is more than +1 current array length 
+		// -- Copy values into new array
+        for (int i = 0; i < OutputValues.length; i=i+1) {
+            bigArray[i] = OutputValues[i];
+		}
+		OutputValues = bigArray; // -- This may only work with Sequential Algorithm !!!
+ 	}
+    OutputValues[item - 1] = value;
+}
+            ]]></body>
+        </method>
+        <method>
+            <name>stringArrayItemAt</name>
+            <parameter type="int"/>
+            <parameter type="java.lang.String[]"/>
+            <body language="arl"><![CDATA[
+            if (item <= 0 || item > itemlist.length) {
+  return "";
+}
+ else {
+  return itemlist[item - 1];
+}
+            ]]></body>
+        </method>
+        <method>
+            <name>toDate</name>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            java.text.DateFormat df = new java.text.SimpleDateFormat("dd-MM-yyyy");    // -- e.g. 31-12-2020
+//java.lang.System.out.println("~~~ 'VirtuaMethods.toDate' called with '"+datestring+"'");
+if (datestring == null || datestring.equals("")) {
+  ErrorRaised = true;
+  ErrorMessage = "'as a date' operator used in a table on a null or empty string";
+  return new java.util.Date();
+}
+ErrorMessage = ErrorMessage+"    Parsed date = "+df.parse(datestring).toString();
+return df.parse(datestring);
+            ]]></body>
+        </method>
+        <method>
+            <name>toLowerCase</name>
+            <parameter type="java.lang.String"/>
+            <body language="arl"><![CDATA[
+            if (text == null) return "";
+else return text.toLowerCase();
+            ]]></body>
+        </method>
+    </class>
+</b2x:translation>

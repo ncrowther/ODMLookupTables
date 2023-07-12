@@ -1,0 +1,1639 @@
+
+property uuid "e7ef28d8-f487-4533-b014-6b13ac0ad4be"
+
+public class CountriesDomain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.en" "3"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.de" "5"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "2"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.es" "6"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.fr" "4"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "0"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "ODMDynamicDomains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain 
+    {
+        static Australia,
+        static Austria,
+        static Brazil,
+        static Canada,
+        static China,
+        static Chile,
+        static Croatia,
+        static Czech_Republic,
+        static Denmark,
+        static Egypt,
+        static Estonia,
+        static Finland,
+        static France,
+        static Germany,
+        static Greece,
+        static HongKong,
+        static Hungary,
+        static Iceland,
+        static Indonesia,
+        static India,
+        static Ireland,
+        static Israel,
+        static Italy,
+        static Japan,
+        static Lithuania,
+        static Malaysia,
+        static Mexico,
+        static Netherlands,
+        static New_Zealand,
+        static Norway,
+        static Pakistan,
+        static Poland,
+        static Portugal,
+        static Russia,
+        static Singapore,
+        static Slovakia,
+        static Slovenia,
+        static South_Africa,
+        static Spain,
+        static Sweden,
+        static Switzerland,
+        static Thailand,
+        static Turkey,
+        static Ukraine,
+        static United_Kingdom,
+        static United_States
+    }
+    public static final readonly CountriesDomain Australia;
+    public static final readonly CountriesDomain Austria;
+    public static final readonly CountriesDomain Brazil;
+    public static final readonly CountriesDomain Canada;
+    public static final readonly CountriesDomain Chile;
+    public static final readonly CountriesDomain China;
+    public static final readonly CountriesDomain Croatia;
+    public static final readonly CountriesDomain Czech_Republic;
+    public static final readonly CountriesDomain Denmark;
+    public static final readonly CountriesDomain Egypt;
+    public static final readonly CountriesDomain Estonia;
+    public static final readonly CountriesDomain Finland;
+    public static final readonly CountriesDomain France;
+    public static final readonly CountriesDomain Germany;
+    public static final readonly CountriesDomain Greece;
+    public static final readonly CountriesDomain HongKong;
+    public static final readonly CountriesDomain Hungary;
+    public static final readonly CountriesDomain Iceland;
+    public static final readonly CountriesDomain India;
+    public static final readonly CountriesDomain Indonesia;
+    public static final readonly CountriesDomain Ireland;
+    public static final readonly CountriesDomain Israel;
+    public static final readonly CountriesDomain Italy;
+    public static final readonly CountriesDomain Japan;
+    public static final readonly CountriesDomain Lithuania;
+    public static final readonly CountriesDomain Malaysia;
+    public static final readonly CountriesDomain Mexico;
+    public static final readonly CountriesDomain Netherlands;
+    public static final readonly CountriesDomain New_Zealand;
+    public static final readonly CountriesDomain Norway;
+    public static final readonly CountriesDomain Pakistan;
+    public static final readonly CountriesDomain Poland;
+    public static final readonly CountriesDomain Portugal;
+    public static final readonly CountriesDomain Russia;
+    public static final readonly CountriesDomain Singapore;
+    public static final readonly CountriesDomain Slovakia;
+    public static final readonly CountriesDomain Slovenia;
+    public static final readonly CountriesDomain South_Africa;
+    public static final readonly CountriesDomain Spain;
+    public static final readonly CountriesDomain Sweden;
+    public static final readonly CountriesDomain Switzerland;
+    public static final readonly CountriesDomain Thailand;
+    public static final readonly CountriesDomain Turkey;
+    public static final readonly CountriesDomain Ukraine;
+    public static final readonly CountriesDomain United_Kingdom;
+    public static final readonly CountriesDomain United_States;
+}
+
+public class SICCodesDomain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.en" "3"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "3"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "ODMDynamicDomains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain 
+    {
+        static sic_1110,
+        static sic_1120,
+        static sic_1130,
+        static sic_1140,
+        static sic_1150,
+        static sic_1160,
+        static sic_1190,
+        static sic_1210,
+        static sic_1220,
+        static sic_1230,
+        static sic_1240,
+        static sic_1250,
+        static sic_1260,
+        static sic_1270,
+        static sic_1280,
+        static sic_1290,
+        static sic_1300,
+        static sic_1410,
+        static sic_1420,
+        static sic_1430,
+        static sic_1440,
+        static sic_1450,
+        static sic_1460,
+        static sic_1470,
+        static sic_1490,
+        static sic_1500,
+        static sic_1610,
+        static sic_1621,
+        static sic_1629,
+        static sic_1630,
+        static sic_1640,
+        static sic_1700,
+        static sic_2100,
+        static sic_2200,
+        static sic_2300,
+        static sic_2400,
+        static sic_3110,
+        static sic_3120,
+        static sic_3210,
+        static sic_3220,
+        static sic_5101,
+        static sic_5102,
+        static sic_5200,
+        static sic_6100,
+        static sic_6200,
+        static sic_7100,
+        static sic_7210,
+        static sic_7290,
+        static sic_8110,
+        static sic_8120,
+        static sic_8910,
+        static sic_8920,
+        static sic_8930,
+        static sic_8990,
+        static sic_9100,
+        static sic_9900,
+        static sic_10110,
+        static sic_10120,
+        static sic_10130,
+        static sic_10200,
+        static sic_10310,
+        static sic_10320,
+        static sic_10390,
+        static sic_10410,
+        static sic_10420,
+        static sic_10511,
+        static sic_10512,
+        static sic_10519,
+        static sic_10520,
+        static sic_10611,
+        static sic_10612,
+        static sic_10620,
+        static sic_10710,
+        static sic_10720,
+        static sic_10730,
+        static sic_10810,
+        static sic_10821,
+        static sic_10822,
+        static sic_10831,
+        static sic_10832,
+        static sic_10840,
+        static sic_10850,
+        static sic_10860,
+        static sic_10890,
+        static sic_10910,
+        static sic_10920,
+        static sic_11010,
+        static sic_11020,
+        static sic_11030,
+        static sic_11040,
+        static sic_11050,
+        static sic_11060,
+        static sic_11070,
+        static sic_12000,
+        static sic_13100,
+        static sic_13200,
+        static sic_13300,
+        static sic_13910,
+        static sic_13921,
+        static sic_13922,
+        static sic_13923,
+        static sic_13931,
+        static sic_13939,
+        static sic_13940,
+        static sic_13950,
+        static sic_13960,
+        static sic_13990,
+        static sic_14110,
+        static sic_14120,
+        static sic_14131,
+        static sic_14132,
+        static sic_14141,
+        static sic_14142,
+        static sic_14190,
+        static sic_14200,
+        static sic_14310,
+        static sic_14390,
+        static sic_15110,
+        static sic_15120,
+        static sic_15200,
+        static sic_16100,
+        static sic_16210,
+        static sic_16220,
+        static sic_16230,
+        static sic_16240,
+        static sic_16290,
+        static sic_17110,
+        static sic_17120,
+        static sic_17211,
+        static sic_17219,
+        static sic_17220,
+        static sic_17230,
+        static sic_17240,
+        static sic_17290,
+        static sic_18110,
+        static sic_18121,
+        static sic_18129,
+        static sic_18130,
+        static sic_18140,
+        static sic_18201,
+        static sic_18202,
+        static sic_18203,
+        static sic_19100,
+        static sic_19201,
+        static sic_19209,
+        static sic_20110,
+        static sic_20120,
+        static sic_20130,
+        static sic_20140,
+        static sic_20150,
+        static sic_20160,
+        static sic_20170,
+        static sic_20200,
+        static sic_20301,
+        static sic_20302,
+        static sic_20411,
+        static sic_20412,
+        static sic_20420,
+        static sic_20510,
+        static sic_20520,
+        static sic_20530,
+        static sic_20590,
+        static sic_20600,
+        static sic_21100,
+        static sic_21200,
+        static sic_22110,
+        static sic_22190,
+        static sic_22210,
+        static sic_22220,
+        static sic_22230,
+        static sic_22290,
+        static sic_23110,
+        static sic_23120,
+        static sic_23130,
+        static sic_23140,
+        static sic_23190,
+        static sic_23200,
+        static sic_23310,
+        static sic_23320,
+        static sic_23410,
+        static sic_23420,
+        static sic_23430,
+        static sic_23440,
+        static sic_23490,
+        static sic_23510,
+        static sic_23520,
+        static sic_23610,
+        static sic_23620,
+        static sic_23630,
+        static sic_23640,
+        static sic_23650,
+        static sic_23690,
+        static sic_23700,
+        static sic_23910,
+        static sic_23990,
+        static sic_24100,
+        static sic_24200,
+        static sic_24310,
+        static sic_24320,
+        static sic_24330,
+        static sic_24340,
+        static sic_24410,
+        static sic_24420,
+        static sic_24430,
+        static sic_24440,
+        static sic_24450,
+        static sic_24460,
+        static sic_24510,
+        static sic_24520,
+        static sic_24530,
+        static sic_24540,
+        static sic_25110,
+        static sic_25120,
+        static sic_25210,
+        static sic_25290,
+        static sic_25300,
+        static sic_25400,
+        static sic_25500,
+        static sic_25610,
+        static sic_25620,
+        static sic_25710,
+        static sic_25720,
+        static sic_25730,
+        static sic_25910,
+        static sic_25920,
+        static sic_25930,
+        static sic_25940,
+        static sic_25990,
+        static sic_26110,
+        static sic_26120,
+        static sic_26200,
+        static sic_26301,
+        static sic_26309,
+        static sic_26400,
+        static sic_26511,
+        static sic_26512,
+        static sic_26513,
+        static sic_26514,
+        static sic_26520,
+        static sic_26600,
+        static sic_26701,
+        static sic_26702,
+        static sic_26800,
+        static sic_27110,
+        static sic_27120,
+        static sic_27200,
+        static sic_27310,
+        static sic_27320,
+        static sic_27330,
+        static sic_27400,
+        static sic_27510,
+        static sic_27520,
+        static sic_27900,
+        static sic_28110,
+        static sic_28120,
+        static sic_28131,
+        static sic_28132,
+        static sic_28140,
+        static sic_28150,
+        static sic_28210,
+        static sic_28220,
+        static sic_28230,
+        static sic_28240,
+        static sic_28250,
+        static sic_28290,
+        static sic_28301,
+        static sic_28302,
+        static sic_28410,
+        static sic_28490,
+        static sic_28910,
+        static sic_28921,
+        static sic_28922,
+        static sic_28923,
+        static sic_28930,
+        static sic_28940,
+        static sic_28950,
+        static sic_28960,
+        static sic_28990,
+        static sic_29100,
+        static sic_29201,
+        static sic_29202,
+        static sic_29203,
+        static sic_29310,
+        static sic_29320,
+        static sic_30110,
+        static sic_30120,
+        static sic_30200,
+        static sic_30300,
+        static sic_30400,
+        static sic_30910,
+        static sic_30920,
+        static sic_30990,
+        static sic_31010,
+        static sic_31020,
+        static sic_31030,
+        static sic_31090,
+        static sic_32110,
+        static sic_32120,
+        static sic_32130,
+        static sic_32200,
+        static sic_32300,
+        static sic_32401,
+        static sic_32409,
+        static sic_32500,
+        static sic_32910,
+        static sic_32990,
+        static sic_33110,
+        static sic_33120,
+        static sic_33130,
+        static sic_33140,
+        static sic_33150,
+        static sic_33160,
+        static sic_33170,
+        static sic_33190,
+        static sic_33200,
+        static sic_35110,
+        static sic_35120,
+        static sic_35130,
+        static sic_35140,
+        static sic_35210,
+        static sic_35220,
+        static sic_35230,
+        static sic_35300,
+        static sic_36000,
+        static sic_37000,
+        static sic_38110,
+        static sic_38120,
+        static sic_38210,
+        static sic_38220,
+        static sic_38310,
+        static sic_38320,
+        static sic_39000,
+        static sic_41100,
+        static sic_41201,
+        static sic_41202,
+        static sic_42110,
+        static sic_42120,
+        static sic_42130,
+        static sic_42210,
+        static sic_42220,
+        static sic_42910,
+        static sic_42990,
+        static sic_43110,
+        static sic_43120,
+        static sic_43130,
+        static sic_43210,
+        static sic_43220,
+        static sic_43290,
+        static sic_43310,
+        static sic_43320,
+        static sic_43330,
+        static sic_43341,
+        static sic_43342,
+        static sic_43390,
+        static sic_43910,
+        static sic_43991,
+        static sic_43999,
+        static sic_45111,
+        static sic_45112,
+        static sic_45190,
+        static sic_45200,
+        static sic_45310,
+        static sic_45320,
+        static sic_45400,
+        static sic_46110,
+        static sic_46120,
+        static sic_46130,
+        static sic_46140,
+        static sic_46150,
+        static sic_46160,
+        static sic_46170,
+        static sic_46180,
+        static sic_46190,
+        static sic_46210,
+        static sic_46220,
+        static sic_46230,
+        static sic_46240,
+        static sic_46310,
+        static sic_46320,
+        static sic_46330,
+        static sic_46341,
+        static sic_46342,
+        static sic_46350,
+        static sic_46360,
+        static sic_46370,
+        static sic_46380,
+        static sic_46390,
+        static sic_46410,
+        static sic_46420,
+        static sic_46431,
+        static sic_46439,
+        static sic_46440,
+        static sic_46450,
+        static sic_46460,
+        static sic_46470,
+        static sic_46480,
+        static sic_46491,
+        static sic_46499,
+        static sic_46510,
+        static sic_46520,
+        static sic_46610,
+        static sic_46620,
+        static sic_46630,
+        static sic_46640,
+        static sic_46650,
+        static sic_46660,
+        static sic_46690,
+        static sic_46711,
+        static sic_46719,
+        static sic_46720,
+        static sic_46730,
+        static sic_46740,
+        static sic_46750,
+        static sic_46760,
+        static sic_46770,
+        static sic_46900,
+        static sic_47110,
+        static sic_47190,
+        static sic_47210,
+        static sic_47220,
+        static sic_47230,
+        static sic_47240,
+        static sic_47250,
+        static sic_47260,
+        static sic_47290,
+        static sic_47300,
+        static sic_47410,
+        static sic_47421,
+        static sic_47429,
+        static sic_47430,
+        static sic_47510,
+        static sic_47520,
+        static sic_47530,
+        static sic_47540,
+        static sic_47591,
+        static sic_47599,
+        static sic_47610,
+        static sic_47620,
+        static sic_47630,
+        static sic_47640,
+        static sic_47650,
+        static sic_47710,
+        static sic_47721,
+        static sic_47722,
+        static sic_47730,
+        static sic_47741,
+        static sic_47749,
+        static sic_47750,
+        static sic_47760,
+        static sic_47770,
+        static sic_47781,
+        static sic_47782,
+        static sic_47789,
+        static sic_47791,
+        static sic_47799,
+        static sic_47810,
+        static sic_47820,
+        static sic_47890,
+        static sic_47910,
+        static sic_47990,
+        static sic_49100,
+        static sic_49200,
+        static sic_49311,
+        static sic_49319,
+        static sic_49320,
+        static sic_49390,
+        static sic_49410,
+        static sic_49420,
+        static sic_49500,
+        static sic_50100,
+        static sic_50200,
+        static sic_50300,
+        static sic_50400,
+        static sic_51101,
+        static sic_51102,
+        static sic_51210,
+        static sic_51220,
+        static sic_52101,
+        static sic_52102,
+        static sic_52103,
+        static sic_52211,
+        static sic_52212,
+        static sic_52213,
+        static sic_52219,
+        static sic_52220,
+        static sic_52230,
+        static sic_52241,
+        static sic_52242,
+        static sic_52243,
+        static sic_52290,
+        static sic_53100,
+        static sic_53201,
+        static sic_53202,
+        static sic_55100,
+        static sic_55201,
+        static sic_55202,
+        static sic_55209,
+        static sic_55300,
+        static sic_55900,
+        static sic_56101,
+        static sic_56102,
+        static sic_56103,
+        static sic_56210,
+        static sic_56290,
+        static sic_56301,
+        static sic_56302,
+        static sic_58110,
+        static sic_58120,
+        static sic_58130,
+        static sic_58141,
+        static sic_58142,
+        static sic_58190,
+        static sic_58210,
+        static sic_58290,
+        static sic_59111,
+        static sic_59112,
+        static sic_59113,
+        static sic_59120,
+        static sic_59131,
+        static sic_59132,
+        static sic_59133,
+        static sic_59140,
+        static sic_59200,
+        static sic_60100,
+        static sic_60200,
+        static sic_61100,
+        static sic_61200,
+        static sic_61300,
+        static sic_61900,
+        static sic_62011,
+        static sic_62012,
+        static sic_62020,
+        static sic_62030,
+        static sic_62090,
+        static sic_63110,
+        static sic_63120,
+        static sic_63910,
+        static sic_63990,
+        static sic_64110,
+        static sic_64191,
+        static sic_64192,
+        static sic_64201,
+        static sic_64202,
+        static sic_64203,
+        static sic_64204,
+        static sic_64205,
+        static sic_64209,
+        static sic_64301,
+        static sic_64302,
+        static sic_64303,
+        static sic_64304,
+        static sic_64305,
+        static sic_64306,
+        static sic_64910,
+        static sic_64921,
+        static sic_64922,
+        static sic_64929,
+        static sic_64991,
+        static sic_64992,
+        static sic_64999,
+        static sic_65110,
+        static sic_65120,
+        static sic_65201,
+        static sic_65202,
+        static sic_65300,
+        static sic_66110,
+        static sic_66120,
+        static sic_66190,
+        static sic_66210,
+        static sic_66220,
+        static sic_66290,
+        static sic_66300,
+        static sic_68100,
+        static sic_68201,
+        static sic_68202,
+        static sic_68209,
+        static sic_68310,
+        static sic_68320,
+        static sic_69101,
+        static sic_69102,
+        static sic_69109,
+        static sic_69201,
+        static sic_69202,
+        static sic_69203,
+        static sic_70100,
+        static sic_70210,
+        static sic_70221,
+        static sic_70229,
+        static sic_71111,
+        static sic_71112,
+        static sic_71121,
+        static sic_71122,
+        static sic_71129,
+        static sic_71200,
+        static sic_72110,
+        static sic_72190,
+        static sic_72200,
+        static sic_73110,
+        static sic_73120,
+        static sic_73200,
+        static sic_74100,
+        static sic_74201,
+        static sic_74202,
+        static sic_74203,
+        static sic_74209,
+        static sic_74300,
+        static sic_74901,
+        static sic_74902,
+        static sic_74909,
+        static sic_74990,
+        static sic_75000,
+        static sic_77110,
+        static sic_77120,
+        static sic_77210,
+        static sic_77220,
+        static sic_77291,
+        static sic_77299,
+        static sic_77310,
+        static sic_77320,
+        static sic_77330,
+        static sic_77341,
+        static sic_77342,
+        static sic_77351,
+        static sic_77352,
+        static sic_77390,
+        static sic_77400,
+        static sic_78101,
+        static sic_78109,
+        static sic_78200,
+        static sic_78300,
+        static sic_79110,
+        static sic_79120,
+        static sic_79901,
+        static sic_79909,
+        static sic_80100,
+        static sic_80200,
+        static sic_80300,
+        static sic_81100,
+        static sic_81210,
+        static sic_81221,
+        static sic_81222,
+        static sic_81223,
+        static sic_81229,
+        static sic_81291,
+        static sic_81299,
+        static sic_81300,
+        static sic_82110,
+        static sic_82190,
+        static sic_82200,
+        static sic_82301,
+        static sic_82302,
+        static sic_82911,
+        static sic_82912,
+        static sic_82920,
+        static sic_82990,
+        static sic_84110,
+        static sic_84120,
+        static sic_84130,
+        static sic_84210,
+        static sic_84220,
+        static sic_84230,
+        static sic_84240,
+        static sic_84250,
+        static sic_84300,
+        static sic_85100,
+        static sic_85200,
+        static sic_85310,
+        static sic_85320,
+        static sic_85410,
+        static sic_85421,
+        static sic_85422,
+        static sic_85510,
+        static sic_85520,
+        static sic_85530,
+        static sic_85590,
+        static sic_85600,
+        static sic_86101,
+        static sic_86102,
+        static sic_86210,
+        static sic_86220,
+        static sic_86230,
+        static sic_86900,
+        static sic_87100,
+        static sic_87200,
+        static sic_87300,
+        static sic_87900,
+        static sic_88100,
+        static sic_88910,
+        static sic_88990,
+        static sic_90010,
+        static sic_90020,
+        static sic_90030,
+        static sic_90040,
+        static sic_91011,
+        static sic_91012,
+        static sic_91020,
+        static sic_91030,
+        static sic_91040,
+        static sic_92000,
+        static sic_93110,
+        static sic_93120,
+        static sic_93130,
+        static sic_93191,
+        static sic_93199,
+        static sic_93210,
+        static sic_93290,
+        static sic_94110,
+        static sic_94120,
+        static sic_94200,
+        static sic_94910,
+        static sic_94920,
+        static sic_94990,
+        static sic_95110,
+        static sic_95120,
+        static sic_95210,
+        static sic_95220,
+        static sic_95230,
+        static sic_95240,
+        static sic_95250,
+        static sic_95290,
+        static sic_96010,
+        static sic_96020,
+        static sic_96030,
+        static sic_96040,
+        static sic_96090,
+        static sic_97000,
+        static sic_98000,
+        static sic_98100,
+        static sic_98200,
+        static sic_99000,
+        static sic_99999
+    }
+    public static final readonly SICCodesDomain sic_10110;
+    public static final readonly SICCodesDomain sic_10120;
+    public static final readonly SICCodesDomain sic_10130;
+    public static final readonly SICCodesDomain sic_10200;
+    public static final readonly SICCodesDomain sic_10310;
+    public static final readonly SICCodesDomain sic_10320;
+    public static final readonly SICCodesDomain sic_10390;
+    public static final readonly SICCodesDomain sic_10410;
+    public static final readonly SICCodesDomain sic_10420;
+    public static final readonly SICCodesDomain sic_10511;
+    public static final readonly SICCodesDomain sic_10512;
+    public static final readonly SICCodesDomain sic_10519;
+    public static final readonly SICCodesDomain sic_10520;
+    public static final readonly SICCodesDomain sic_10611;
+    public static final readonly SICCodesDomain sic_10612;
+    public static final readonly SICCodesDomain sic_10620;
+    public static final readonly SICCodesDomain sic_10710;
+    public static final readonly SICCodesDomain sic_10720;
+    public static final readonly SICCodesDomain sic_10730;
+    public static final readonly SICCodesDomain sic_10810;
+    public static final readonly SICCodesDomain sic_10821;
+    public static final readonly SICCodesDomain sic_10822;
+    public static final readonly SICCodesDomain sic_10831;
+    public static final readonly SICCodesDomain sic_10832;
+    public static final readonly SICCodesDomain sic_10840;
+    public static final readonly SICCodesDomain sic_10850;
+    public static final readonly SICCodesDomain sic_10860;
+    public static final readonly SICCodesDomain sic_10890;
+    public static final readonly SICCodesDomain sic_10910;
+    public static final readonly SICCodesDomain sic_10920;
+    public static final readonly SICCodesDomain sic_11010;
+    public static final readonly SICCodesDomain sic_11020;
+    public static final readonly SICCodesDomain sic_11030;
+    public static final readonly SICCodesDomain sic_11040;
+    public static final readonly SICCodesDomain sic_11050;
+    public static final readonly SICCodesDomain sic_11060;
+    public static final readonly SICCodesDomain sic_11070;
+    public static final readonly SICCodesDomain sic_1110;
+    public static final readonly SICCodesDomain sic_1120;
+    public static final readonly SICCodesDomain sic_1130;
+    public static final readonly SICCodesDomain sic_1140;
+    public static final readonly SICCodesDomain sic_1150;
+    public static final readonly SICCodesDomain sic_1160;
+    public static final readonly SICCodesDomain sic_1190;
+    public static final readonly SICCodesDomain sic_12000;
+    public static final readonly SICCodesDomain sic_1210;
+    public static final readonly SICCodesDomain sic_1220;
+    public static final readonly SICCodesDomain sic_1230;
+    public static final readonly SICCodesDomain sic_1240;
+    public static final readonly SICCodesDomain sic_1250;
+    public static final readonly SICCodesDomain sic_1260;
+    public static final readonly SICCodesDomain sic_1270;
+    public static final readonly SICCodesDomain sic_1280;
+    public static final readonly SICCodesDomain sic_1290;
+    public static final readonly SICCodesDomain sic_1300;
+    public static final readonly SICCodesDomain sic_13100;
+    public static final readonly SICCodesDomain sic_13200;
+    public static final readonly SICCodesDomain sic_13300;
+    public static final readonly SICCodesDomain sic_13910;
+    public static final readonly SICCodesDomain sic_13921;
+    public static final readonly SICCodesDomain sic_13922;
+    public static final readonly SICCodesDomain sic_13923;
+    public static final readonly SICCodesDomain sic_13931;
+    public static final readonly SICCodesDomain sic_13939;
+    public static final readonly SICCodesDomain sic_13940;
+    public static final readonly SICCodesDomain sic_13950;
+    public static final readonly SICCodesDomain sic_13960;
+    public static final readonly SICCodesDomain sic_13990;
+    public static final readonly SICCodesDomain sic_1410;
+    public static final readonly SICCodesDomain sic_14110;
+    public static final readonly SICCodesDomain sic_14120;
+    public static final readonly SICCodesDomain sic_14131;
+    public static final readonly SICCodesDomain sic_14132;
+    public static final readonly SICCodesDomain sic_14141;
+    public static final readonly SICCodesDomain sic_14142;
+    public static final readonly SICCodesDomain sic_14190;
+    public static final readonly SICCodesDomain sic_1420;
+    public static final readonly SICCodesDomain sic_14200;
+    public static final readonly SICCodesDomain sic_1430;
+    public static final readonly SICCodesDomain sic_14310;
+    public static final readonly SICCodesDomain sic_14390;
+    public static final readonly SICCodesDomain sic_1440;
+    public static final readonly SICCodesDomain sic_1450;
+    public static final readonly SICCodesDomain sic_1460;
+    public static final readonly SICCodesDomain sic_1470;
+    public static final readonly SICCodesDomain sic_1490;
+    public static final readonly SICCodesDomain sic_1500;
+    public static final readonly SICCodesDomain sic_15110;
+    public static final readonly SICCodesDomain sic_15120;
+    public static final readonly SICCodesDomain sic_15200;
+    public static final readonly SICCodesDomain sic_1610;
+    public static final readonly SICCodesDomain sic_16100;
+    public static final readonly SICCodesDomain sic_1621;
+    public static final readonly SICCodesDomain sic_16210;
+    public static final readonly SICCodesDomain sic_16220;
+    public static final readonly SICCodesDomain sic_16230;
+    public static final readonly SICCodesDomain sic_16240;
+    public static final readonly SICCodesDomain sic_1629;
+    public static final readonly SICCodesDomain sic_16290;
+    public static final readonly SICCodesDomain sic_1630;
+    public static final readonly SICCodesDomain sic_1640;
+    public static final readonly SICCodesDomain sic_1700;
+    public static final readonly SICCodesDomain sic_17110;
+    public static final readonly SICCodesDomain sic_17120;
+    public static final readonly SICCodesDomain sic_17211;
+    public static final readonly SICCodesDomain sic_17219;
+    public static final readonly SICCodesDomain sic_17220;
+    public static final readonly SICCodesDomain sic_17230;
+    public static final readonly SICCodesDomain sic_17240;
+    public static final readonly SICCodesDomain sic_17290;
+    public static final readonly SICCodesDomain sic_18110;
+    public static final readonly SICCodesDomain sic_18121;
+    public static final readonly SICCodesDomain sic_18129;
+    public static final readonly SICCodesDomain sic_18130;
+    public static final readonly SICCodesDomain sic_18140;
+    public static final readonly SICCodesDomain sic_18201;
+    public static final readonly SICCodesDomain sic_18202;
+    public static final readonly SICCodesDomain sic_18203;
+    public static final readonly SICCodesDomain sic_19100;
+    public static final readonly SICCodesDomain sic_19201;
+    public static final readonly SICCodesDomain sic_19209;
+    public static final readonly SICCodesDomain sic_20110;
+    public static final readonly SICCodesDomain sic_20120;
+    public static final readonly SICCodesDomain sic_20130;
+    public static final readonly SICCodesDomain sic_20140;
+    public static final readonly SICCodesDomain sic_20150;
+    public static final readonly SICCodesDomain sic_20160;
+    public static final readonly SICCodesDomain sic_20170;
+    public static final readonly SICCodesDomain sic_20200;
+    public static final readonly SICCodesDomain sic_20301;
+    public static final readonly SICCodesDomain sic_20302;
+    public static final readonly SICCodesDomain sic_20411;
+    public static final readonly SICCodesDomain sic_20412;
+    public static final readonly SICCodesDomain sic_20420;
+    public static final readonly SICCodesDomain sic_20510;
+    public static final readonly SICCodesDomain sic_20520;
+    public static final readonly SICCodesDomain sic_20530;
+    public static final readonly SICCodesDomain sic_20590;
+    public static final readonly SICCodesDomain sic_20600;
+    public static final readonly SICCodesDomain sic_2100;
+    public static final readonly SICCodesDomain sic_21100;
+    public static final readonly SICCodesDomain sic_21200;
+    public static final readonly SICCodesDomain sic_2200;
+    public static final readonly SICCodesDomain sic_22110;
+    public static final readonly SICCodesDomain sic_22190;
+    public static final readonly SICCodesDomain sic_22210;
+    public static final readonly SICCodesDomain sic_22220;
+    public static final readonly SICCodesDomain sic_22230;
+    public static final readonly SICCodesDomain sic_22290;
+    public static final readonly SICCodesDomain sic_2300;
+    public static final readonly SICCodesDomain sic_23110;
+    public static final readonly SICCodesDomain sic_23120;
+    public static final readonly SICCodesDomain sic_23130;
+    public static final readonly SICCodesDomain sic_23140;
+    public static final readonly SICCodesDomain sic_23190;
+    public static final readonly SICCodesDomain sic_23200;
+    public static final readonly SICCodesDomain sic_23310;
+    public static final readonly SICCodesDomain sic_23320;
+    public static final readonly SICCodesDomain sic_23410;
+    public static final readonly SICCodesDomain sic_23420;
+    public static final readonly SICCodesDomain sic_23430;
+    public static final readonly SICCodesDomain sic_23440;
+    public static final readonly SICCodesDomain sic_23490;
+    public static final readonly SICCodesDomain sic_23510;
+    public static final readonly SICCodesDomain sic_23520;
+    public static final readonly SICCodesDomain sic_23610;
+    public static final readonly SICCodesDomain sic_23620;
+    public static final readonly SICCodesDomain sic_23630;
+    public static final readonly SICCodesDomain sic_23640;
+    public static final readonly SICCodesDomain sic_23650;
+    public static final readonly SICCodesDomain sic_23690;
+    public static final readonly SICCodesDomain sic_23700;
+    public static final readonly SICCodesDomain sic_23910;
+    public static final readonly SICCodesDomain sic_23990;
+    public static final readonly SICCodesDomain sic_2400;
+    public static final readonly SICCodesDomain sic_24100;
+    public static final readonly SICCodesDomain sic_24200;
+    public static final readonly SICCodesDomain sic_24310;
+    public static final readonly SICCodesDomain sic_24320;
+    public static final readonly SICCodesDomain sic_24330;
+    public static final readonly SICCodesDomain sic_24340;
+    public static final readonly SICCodesDomain sic_24410;
+    public static final readonly SICCodesDomain sic_24420;
+    public static final readonly SICCodesDomain sic_24430;
+    public static final readonly SICCodesDomain sic_24440;
+    public static final readonly SICCodesDomain sic_24450;
+    public static final readonly SICCodesDomain sic_24460;
+    public static final readonly SICCodesDomain sic_24510;
+    public static final readonly SICCodesDomain sic_24520;
+    public static final readonly SICCodesDomain sic_24530;
+    public static final readonly SICCodesDomain sic_24540;
+    public static final readonly SICCodesDomain sic_25110;
+    public static final readonly SICCodesDomain sic_25120;
+    public static final readonly SICCodesDomain sic_25210;
+    public static final readonly SICCodesDomain sic_25290;
+    public static final readonly SICCodesDomain sic_25300;
+    public static final readonly SICCodesDomain sic_25400;
+    public static final readonly SICCodesDomain sic_25500;
+    public static final readonly SICCodesDomain sic_25610;
+    public static final readonly SICCodesDomain sic_25620;
+    public static final readonly SICCodesDomain sic_25710;
+    public static final readonly SICCodesDomain sic_25720;
+    public static final readonly SICCodesDomain sic_25730;
+    public static final readonly SICCodesDomain sic_25910;
+    public static final readonly SICCodesDomain sic_25920;
+    public static final readonly SICCodesDomain sic_25930;
+    public static final readonly SICCodesDomain sic_25940;
+    public static final readonly SICCodesDomain sic_25990;
+    public static final readonly SICCodesDomain sic_26110;
+    public static final readonly SICCodesDomain sic_26120;
+    public static final readonly SICCodesDomain sic_26200;
+    public static final readonly SICCodesDomain sic_26301;
+    public static final readonly SICCodesDomain sic_26309;
+    public static final readonly SICCodesDomain sic_26400;
+    public static final readonly SICCodesDomain sic_26511;
+    public static final readonly SICCodesDomain sic_26512;
+    public static final readonly SICCodesDomain sic_26513;
+    public static final readonly SICCodesDomain sic_26514;
+    public static final readonly SICCodesDomain sic_26520;
+    public static final readonly SICCodesDomain sic_26600;
+    public static final readonly SICCodesDomain sic_26701;
+    public static final readonly SICCodesDomain sic_26702;
+    public static final readonly SICCodesDomain sic_26800;
+    public static final readonly SICCodesDomain sic_27110;
+    public static final readonly SICCodesDomain sic_27120;
+    public static final readonly SICCodesDomain sic_27200;
+    public static final readonly SICCodesDomain sic_27310;
+    public static final readonly SICCodesDomain sic_27320;
+    public static final readonly SICCodesDomain sic_27330;
+    public static final readonly SICCodesDomain sic_27400;
+    public static final readonly SICCodesDomain sic_27510;
+    public static final readonly SICCodesDomain sic_27520;
+    public static final readonly SICCodesDomain sic_27900;
+    public static final readonly SICCodesDomain sic_28110;
+    public static final readonly SICCodesDomain sic_28120;
+    public static final readonly SICCodesDomain sic_28131;
+    public static final readonly SICCodesDomain sic_28132;
+    public static final readonly SICCodesDomain sic_28140;
+    public static final readonly SICCodesDomain sic_28150;
+    public static final readonly SICCodesDomain sic_28210;
+    public static final readonly SICCodesDomain sic_28220;
+    public static final readonly SICCodesDomain sic_28230;
+    public static final readonly SICCodesDomain sic_28240;
+    public static final readonly SICCodesDomain sic_28250;
+    public static final readonly SICCodesDomain sic_28290;
+    public static final readonly SICCodesDomain sic_28301;
+    public static final readonly SICCodesDomain sic_28302;
+    public static final readonly SICCodesDomain sic_28410;
+    public static final readonly SICCodesDomain sic_28490;
+    public static final readonly SICCodesDomain sic_28910;
+    public static final readonly SICCodesDomain sic_28921;
+    public static final readonly SICCodesDomain sic_28922;
+    public static final readonly SICCodesDomain sic_28923;
+    public static final readonly SICCodesDomain sic_28930;
+    public static final readonly SICCodesDomain sic_28940;
+    public static final readonly SICCodesDomain sic_28950;
+    public static final readonly SICCodesDomain sic_28960;
+    public static final readonly SICCodesDomain sic_28990;
+    public static final readonly SICCodesDomain sic_29100;
+    public static final readonly SICCodesDomain sic_29201;
+    public static final readonly SICCodesDomain sic_29202;
+    public static final readonly SICCodesDomain sic_29203;
+    public static final readonly SICCodesDomain sic_29310;
+    public static final readonly SICCodesDomain sic_29320;
+    public static final readonly SICCodesDomain sic_30110;
+    public static final readonly SICCodesDomain sic_30120;
+    public static final readonly SICCodesDomain sic_30200;
+    public static final readonly SICCodesDomain sic_30300;
+    public static final readonly SICCodesDomain sic_30400;
+    public static final readonly SICCodesDomain sic_30910;
+    public static final readonly SICCodesDomain sic_30920;
+    public static final readonly SICCodesDomain sic_30990;
+    public static final readonly SICCodesDomain sic_31010;
+    public static final readonly SICCodesDomain sic_31020;
+    public static final readonly SICCodesDomain sic_31030;
+    public static final readonly SICCodesDomain sic_31090;
+    public static final readonly SICCodesDomain sic_3110;
+    public static final readonly SICCodesDomain sic_3120;
+    public static final readonly SICCodesDomain sic_3210;
+    public static final readonly SICCodesDomain sic_32110;
+    public static final readonly SICCodesDomain sic_32120;
+    public static final readonly SICCodesDomain sic_32130;
+    public static final readonly SICCodesDomain sic_3220;
+    public static final readonly SICCodesDomain sic_32200;
+    public static final readonly SICCodesDomain sic_32300;
+    public static final readonly SICCodesDomain sic_32401;
+    public static final readonly SICCodesDomain sic_32409;
+    public static final readonly SICCodesDomain sic_32500;
+    public static final readonly SICCodesDomain sic_32910;
+    public static final readonly SICCodesDomain sic_32990;
+    public static final readonly SICCodesDomain sic_33110;
+    public static final readonly SICCodesDomain sic_33120;
+    public static final readonly SICCodesDomain sic_33130;
+    public static final readonly SICCodesDomain sic_33140;
+    public static final readonly SICCodesDomain sic_33150;
+    public static final readonly SICCodesDomain sic_33160;
+    public static final readonly SICCodesDomain sic_33170;
+    public static final readonly SICCodesDomain sic_33190;
+    public static final readonly SICCodesDomain sic_33200;
+    public static final readonly SICCodesDomain sic_35110;
+    public static final readonly SICCodesDomain sic_35120;
+    public static final readonly SICCodesDomain sic_35130;
+    public static final readonly SICCodesDomain sic_35140;
+    public static final readonly SICCodesDomain sic_35210;
+    public static final readonly SICCodesDomain sic_35220;
+    public static final readonly SICCodesDomain sic_35230;
+    public static final readonly SICCodesDomain sic_35300;
+    public static final readonly SICCodesDomain sic_36000;
+    public static final readonly SICCodesDomain sic_37000;
+    public static final readonly SICCodesDomain sic_38110;
+    public static final readonly SICCodesDomain sic_38120;
+    public static final readonly SICCodesDomain sic_38210;
+    public static final readonly SICCodesDomain sic_38220;
+    public static final readonly SICCodesDomain sic_38310;
+    public static final readonly SICCodesDomain sic_38320;
+    public static final readonly SICCodesDomain sic_39000;
+    public static final readonly SICCodesDomain sic_41100;
+    public static final readonly SICCodesDomain sic_41201;
+    public static final readonly SICCodesDomain sic_41202;
+    public static final readonly SICCodesDomain sic_42110;
+    public static final readonly SICCodesDomain sic_42120;
+    public static final readonly SICCodesDomain sic_42130;
+    public static final readonly SICCodesDomain sic_42210;
+    public static final readonly SICCodesDomain sic_42220;
+    public static final readonly SICCodesDomain sic_42910;
+    public static final readonly SICCodesDomain sic_42990;
+    public static final readonly SICCodesDomain sic_43110;
+    public static final readonly SICCodesDomain sic_43120;
+    public static final readonly SICCodesDomain sic_43130;
+    public static final readonly SICCodesDomain sic_43210;
+    public static final readonly SICCodesDomain sic_43220;
+    public static final readonly SICCodesDomain sic_43290;
+    public static final readonly SICCodesDomain sic_43310;
+    public static final readonly SICCodesDomain sic_43320;
+    public static final readonly SICCodesDomain sic_43330;
+    public static final readonly SICCodesDomain sic_43341;
+    public static final readonly SICCodesDomain sic_43342;
+    public static final readonly SICCodesDomain sic_43390;
+    public static final readonly SICCodesDomain sic_43910;
+    public static final readonly SICCodesDomain sic_43991;
+    public static final readonly SICCodesDomain sic_43999;
+    public static final readonly SICCodesDomain sic_45111;
+    public static final readonly SICCodesDomain sic_45112;
+    public static final readonly SICCodesDomain sic_45190;
+    public static final readonly SICCodesDomain sic_45200;
+    public static final readonly SICCodesDomain sic_45310;
+    public static final readonly SICCodesDomain sic_45320;
+    public static final readonly SICCodesDomain sic_45400;
+    public static final readonly SICCodesDomain sic_46110;
+    public static final readonly SICCodesDomain sic_46120;
+    public static final readonly SICCodesDomain sic_46130;
+    public static final readonly SICCodesDomain sic_46140;
+    public static final readonly SICCodesDomain sic_46150;
+    public static final readonly SICCodesDomain sic_46160;
+    public static final readonly SICCodesDomain sic_46170;
+    public static final readonly SICCodesDomain sic_46180;
+    public static final readonly SICCodesDomain sic_46190;
+    public static final readonly SICCodesDomain sic_46210;
+    public static final readonly SICCodesDomain sic_46220;
+    public static final readonly SICCodesDomain sic_46230;
+    public static final readonly SICCodesDomain sic_46240;
+    public static final readonly SICCodesDomain sic_46310;
+    public static final readonly SICCodesDomain sic_46320;
+    public static final readonly SICCodesDomain sic_46330;
+    public static final readonly SICCodesDomain sic_46341;
+    public static final readonly SICCodesDomain sic_46342;
+    public static final readonly SICCodesDomain sic_46350;
+    public static final readonly SICCodesDomain sic_46360;
+    public static final readonly SICCodesDomain sic_46370;
+    public static final readonly SICCodesDomain sic_46380;
+    public static final readonly SICCodesDomain sic_46390;
+    public static final readonly SICCodesDomain sic_46410;
+    public static final readonly SICCodesDomain sic_46420;
+    public static final readonly SICCodesDomain sic_46431;
+    public static final readonly SICCodesDomain sic_46439;
+    public static final readonly SICCodesDomain sic_46440;
+    public static final readonly SICCodesDomain sic_46450;
+    public static final readonly SICCodesDomain sic_46460;
+    public static final readonly SICCodesDomain sic_46470;
+    public static final readonly SICCodesDomain sic_46480;
+    public static final readonly SICCodesDomain sic_46491;
+    public static final readonly SICCodesDomain sic_46499;
+    public static final readonly SICCodesDomain sic_46510;
+    public static final readonly SICCodesDomain sic_46520;
+    public static final readonly SICCodesDomain sic_46610;
+    public static final readonly SICCodesDomain sic_46620;
+    public static final readonly SICCodesDomain sic_46630;
+    public static final readonly SICCodesDomain sic_46640;
+    public static final readonly SICCodesDomain sic_46650;
+    public static final readonly SICCodesDomain sic_46660;
+    public static final readonly SICCodesDomain sic_46690;
+    public static final readonly SICCodesDomain sic_46711;
+    public static final readonly SICCodesDomain sic_46719;
+    public static final readonly SICCodesDomain sic_46720;
+    public static final readonly SICCodesDomain sic_46730;
+    public static final readonly SICCodesDomain sic_46740;
+    public static final readonly SICCodesDomain sic_46750;
+    public static final readonly SICCodesDomain sic_46760;
+    public static final readonly SICCodesDomain sic_46770;
+    public static final readonly SICCodesDomain sic_46900;
+    public static final readonly SICCodesDomain sic_47110;
+    public static final readonly SICCodesDomain sic_47190;
+    public static final readonly SICCodesDomain sic_47210;
+    public static final readonly SICCodesDomain sic_47220;
+    public static final readonly SICCodesDomain sic_47230;
+    public static final readonly SICCodesDomain sic_47240;
+    public static final readonly SICCodesDomain sic_47250;
+    public static final readonly SICCodesDomain sic_47260;
+    public static final readonly SICCodesDomain sic_47290;
+    public static final readonly SICCodesDomain sic_47300;
+    public static final readonly SICCodesDomain sic_47410;
+    public static final readonly SICCodesDomain sic_47421;
+    public static final readonly SICCodesDomain sic_47429;
+    public static final readonly SICCodesDomain sic_47430;
+    public static final readonly SICCodesDomain sic_47510;
+    public static final readonly SICCodesDomain sic_47520;
+    public static final readonly SICCodesDomain sic_47530;
+    public static final readonly SICCodesDomain sic_47540;
+    public static final readonly SICCodesDomain sic_47591;
+    public static final readonly SICCodesDomain sic_47599;
+    public static final readonly SICCodesDomain sic_47610;
+    public static final readonly SICCodesDomain sic_47620;
+    public static final readonly SICCodesDomain sic_47630;
+    public static final readonly SICCodesDomain sic_47640;
+    public static final readonly SICCodesDomain sic_47650;
+    public static final readonly SICCodesDomain sic_47710;
+    public static final readonly SICCodesDomain sic_47721;
+    public static final readonly SICCodesDomain sic_47722;
+    public static final readonly SICCodesDomain sic_47730;
+    public static final readonly SICCodesDomain sic_47741;
+    public static final readonly SICCodesDomain sic_47749;
+    public static final readonly SICCodesDomain sic_47750;
+    public static final readonly SICCodesDomain sic_47760;
+    public static final readonly SICCodesDomain sic_47770;
+    public static final readonly SICCodesDomain sic_47781;
+    public static final readonly SICCodesDomain sic_47782;
+    public static final readonly SICCodesDomain sic_47789;
+    public static final readonly SICCodesDomain sic_47791;
+    public static final readonly SICCodesDomain sic_47799;
+    public static final readonly SICCodesDomain sic_47810;
+    public static final readonly SICCodesDomain sic_47820;
+    public static final readonly SICCodesDomain sic_47890;
+    public static final readonly SICCodesDomain sic_47910;
+    public static final readonly SICCodesDomain sic_47990;
+    public static final readonly SICCodesDomain sic_49100;
+    public static final readonly SICCodesDomain sic_49200;
+    public static final readonly SICCodesDomain sic_49311;
+    public static final readonly SICCodesDomain sic_49319;
+    public static final readonly SICCodesDomain sic_49320;
+    public static final readonly SICCodesDomain sic_49390;
+    public static final readonly SICCodesDomain sic_49410;
+    public static final readonly SICCodesDomain sic_49420;
+    public static final readonly SICCodesDomain sic_49500;
+    public static final readonly SICCodesDomain sic_50100;
+    public static final readonly SICCodesDomain sic_50200;
+    public static final readonly SICCodesDomain sic_50300;
+    public static final readonly SICCodesDomain sic_50400;
+    public static final readonly SICCodesDomain sic_5101;
+    public static final readonly SICCodesDomain sic_5102;
+    public static final readonly SICCodesDomain sic_51101;
+    public static final readonly SICCodesDomain sic_51102;
+    public static final readonly SICCodesDomain sic_51210;
+    public static final readonly SICCodesDomain sic_51220;
+    public static final readonly SICCodesDomain sic_5200;
+    public static final readonly SICCodesDomain sic_52101;
+    public static final readonly SICCodesDomain sic_52102;
+    public static final readonly SICCodesDomain sic_52103;
+    public static final readonly SICCodesDomain sic_52211;
+    public static final readonly SICCodesDomain sic_52212;
+    public static final readonly SICCodesDomain sic_52213;
+    public static final readonly SICCodesDomain sic_52219;
+    public static final readonly SICCodesDomain sic_52220;
+    public static final readonly SICCodesDomain sic_52230;
+    public static final readonly SICCodesDomain sic_52241;
+    public static final readonly SICCodesDomain sic_52242;
+    public static final readonly SICCodesDomain sic_52243;
+    public static final readonly SICCodesDomain sic_52290;
+    public static final readonly SICCodesDomain sic_53100;
+    public static final readonly SICCodesDomain sic_53201;
+    public static final readonly SICCodesDomain sic_53202;
+    public static final readonly SICCodesDomain sic_55100;
+    public static final readonly SICCodesDomain sic_55201;
+    public static final readonly SICCodesDomain sic_55202;
+    public static final readonly SICCodesDomain sic_55209;
+    public static final readonly SICCodesDomain sic_55300;
+    public static final readonly SICCodesDomain sic_55900;
+    public static final readonly SICCodesDomain sic_56101;
+    public static final readonly SICCodesDomain sic_56102;
+    public static final readonly SICCodesDomain sic_56103;
+    public static final readonly SICCodesDomain sic_56210;
+    public static final readonly SICCodesDomain sic_56290;
+    public static final readonly SICCodesDomain sic_56301;
+    public static final readonly SICCodesDomain sic_56302;
+    public static final readonly SICCodesDomain sic_58110;
+    public static final readonly SICCodesDomain sic_58120;
+    public static final readonly SICCodesDomain sic_58130;
+    public static final readonly SICCodesDomain sic_58141;
+    public static final readonly SICCodesDomain sic_58142;
+    public static final readonly SICCodesDomain sic_58190;
+    public static final readonly SICCodesDomain sic_58210;
+    public static final readonly SICCodesDomain sic_58290;
+    public static final readonly SICCodesDomain sic_59111;
+    public static final readonly SICCodesDomain sic_59112;
+    public static final readonly SICCodesDomain sic_59113;
+    public static final readonly SICCodesDomain sic_59120;
+    public static final readonly SICCodesDomain sic_59131;
+    public static final readonly SICCodesDomain sic_59132;
+    public static final readonly SICCodesDomain sic_59133;
+    public static final readonly SICCodesDomain sic_59140;
+    public static final readonly SICCodesDomain sic_59200;
+    public static final readonly SICCodesDomain sic_60100;
+    public static final readonly SICCodesDomain sic_60200;
+    public static final readonly SICCodesDomain sic_6100;
+    public static final readonly SICCodesDomain sic_61100;
+    public static final readonly SICCodesDomain sic_61200;
+    public static final readonly SICCodesDomain sic_61300;
+    public static final readonly SICCodesDomain sic_61900;
+    public static final readonly SICCodesDomain sic_6200;
+    public static final readonly SICCodesDomain sic_62011;
+    public static final readonly SICCodesDomain sic_62012;
+    public static final readonly SICCodesDomain sic_62020;
+    public static final readonly SICCodesDomain sic_62030;
+    public static final readonly SICCodesDomain sic_62090;
+    public static final readonly SICCodesDomain sic_63110;
+    public static final readonly SICCodesDomain sic_63120;
+    public static final readonly SICCodesDomain sic_63910;
+    public static final readonly SICCodesDomain sic_63990;
+    public static final readonly SICCodesDomain sic_64110;
+    public static final readonly SICCodesDomain sic_64191;
+    public static final readonly SICCodesDomain sic_64192;
+    public static final readonly SICCodesDomain sic_64201;
+    public static final readonly SICCodesDomain sic_64202;
+    public static final readonly SICCodesDomain sic_64203;
+    public static final readonly SICCodesDomain sic_64204;
+    public static final readonly SICCodesDomain sic_64205;
+    public static final readonly SICCodesDomain sic_64209;
+    public static final readonly SICCodesDomain sic_64301;
+    public static final readonly SICCodesDomain sic_64302;
+    public static final readonly SICCodesDomain sic_64303;
+    public static final readonly SICCodesDomain sic_64304;
+    public static final readonly SICCodesDomain sic_64305;
+    public static final readonly SICCodesDomain sic_64306;
+    public static final readonly SICCodesDomain sic_64910;
+    public static final readonly SICCodesDomain sic_64921;
+    public static final readonly SICCodesDomain sic_64922;
+    public static final readonly SICCodesDomain sic_64929;
+    public static final readonly SICCodesDomain sic_64991;
+    public static final readonly SICCodesDomain sic_64992;
+    public static final readonly SICCodesDomain sic_64999;
+    public static final readonly SICCodesDomain sic_65110;
+    public static final readonly SICCodesDomain sic_65120;
+    public static final readonly SICCodesDomain sic_65201;
+    public static final readonly SICCodesDomain sic_65202;
+    public static final readonly SICCodesDomain sic_65300;
+    public static final readonly SICCodesDomain sic_66110;
+    public static final readonly SICCodesDomain sic_66120;
+    public static final readonly SICCodesDomain sic_66190;
+    public static final readonly SICCodesDomain sic_66210;
+    public static final readonly SICCodesDomain sic_66220;
+    public static final readonly SICCodesDomain sic_66290;
+    public static final readonly SICCodesDomain sic_66300;
+    public static final readonly SICCodesDomain sic_68100;
+    public static final readonly SICCodesDomain sic_68201;
+    public static final readonly SICCodesDomain sic_68202;
+    public static final readonly SICCodesDomain sic_68209;
+    public static final readonly SICCodesDomain sic_68310;
+    public static final readonly SICCodesDomain sic_68320;
+    public static final readonly SICCodesDomain sic_69101;
+    public static final readonly SICCodesDomain sic_69102;
+    public static final readonly SICCodesDomain sic_69109;
+    public static final readonly SICCodesDomain sic_69201;
+    public static final readonly SICCodesDomain sic_69202;
+    public static final readonly SICCodesDomain sic_69203;
+    public static final readonly SICCodesDomain sic_70100;
+    public static final readonly SICCodesDomain sic_70210;
+    public static final readonly SICCodesDomain sic_70221;
+    public static final readonly SICCodesDomain sic_70229;
+    public static final readonly SICCodesDomain sic_7100;
+    public static final readonly SICCodesDomain sic_71111;
+    public static final readonly SICCodesDomain sic_71112;
+    public static final readonly SICCodesDomain sic_71121;
+    public static final readonly SICCodesDomain sic_71122;
+    public static final readonly SICCodesDomain sic_71129;
+    public static final readonly SICCodesDomain sic_71200;
+    public static final readonly SICCodesDomain sic_7210;
+    public static final readonly SICCodesDomain sic_72110;
+    public static final readonly SICCodesDomain sic_72190;
+    public static final readonly SICCodesDomain sic_72200;
+    public static final readonly SICCodesDomain sic_7290;
+    public static final readonly SICCodesDomain sic_73110;
+    public static final readonly SICCodesDomain sic_73120;
+    public static final readonly SICCodesDomain sic_73200;
+    public static final readonly SICCodesDomain sic_74100;
+    public static final readonly SICCodesDomain sic_74201;
+    public static final readonly SICCodesDomain sic_74202;
+    public static final readonly SICCodesDomain sic_74203;
+    public static final readonly SICCodesDomain sic_74209;
+    public static final readonly SICCodesDomain sic_74300;
+    public static final readonly SICCodesDomain sic_74901;
+    public static final readonly SICCodesDomain sic_74902;
+    public static final readonly SICCodesDomain sic_74909;
+    public static final readonly SICCodesDomain sic_74990;
+    public static final readonly SICCodesDomain sic_75000;
+    public static final readonly SICCodesDomain sic_77110;
+    public static final readonly SICCodesDomain sic_77120;
+    public static final readonly SICCodesDomain sic_77210;
+    public static final readonly SICCodesDomain sic_77220;
+    public static final readonly SICCodesDomain sic_77291;
+    public static final readonly SICCodesDomain sic_77299;
+    public static final readonly SICCodesDomain sic_77310;
+    public static final readonly SICCodesDomain sic_77320;
+    public static final readonly SICCodesDomain sic_77330;
+    public static final readonly SICCodesDomain sic_77341;
+    public static final readonly SICCodesDomain sic_77342;
+    public static final readonly SICCodesDomain sic_77351;
+    public static final readonly SICCodesDomain sic_77352;
+    public static final readonly SICCodesDomain sic_77390;
+    public static final readonly SICCodesDomain sic_77400;
+    public static final readonly SICCodesDomain sic_78101;
+    public static final readonly SICCodesDomain sic_78109;
+    public static final readonly SICCodesDomain sic_78200;
+    public static final readonly SICCodesDomain sic_78300;
+    public static final readonly SICCodesDomain sic_79110;
+    public static final readonly SICCodesDomain sic_79120;
+    public static final readonly SICCodesDomain sic_79901;
+    public static final readonly SICCodesDomain sic_79909;
+    public static final readonly SICCodesDomain sic_80100;
+    public static final readonly SICCodesDomain sic_80200;
+    public static final readonly SICCodesDomain sic_80300;
+    public static final readonly SICCodesDomain sic_8110;
+    public static final readonly SICCodesDomain sic_81100;
+    public static final readonly SICCodesDomain sic_8120;
+    public static final readonly SICCodesDomain sic_81210;
+    public static final readonly SICCodesDomain sic_81221;
+    public static final readonly SICCodesDomain sic_81222;
+    public static final readonly SICCodesDomain sic_81223;
+    public static final readonly SICCodesDomain sic_81229;
+    public static final readonly SICCodesDomain sic_81291;
+    public static final readonly SICCodesDomain sic_81299;
+    public static final readonly SICCodesDomain sic_81300;
+    public static final readonly SICCodesDomain sic_82110;
+    public static final readonly SICCodesDomain sic_82190;
+    public static final readonly SICCodesDomain sic_82200;
+    public static final readonly SICCodesDomain sic_82301;
+    public static final readonly SICCodesDomain sic_82302;
+    public static final readonly SICCodesDomain sic_82911;
+    public static final readonly SICCodesDomain sic_82912;
+    public static final readonly SICCodesDomain sic_82920;
+    public static final readonly SICCodesDomain sic_82990;
+    public static final readonly SICCodesDomain sic_84110;
+    public static final readonly SICCodesDomain sic_84120;
+    public static final readonly SICCodesDomain sic_84130;
+    public static final readonly SICCodesDomain sic_84210;
+    public static final readonly SICCodesDomain sic_84220;
+    public static final readonly SICCodesDomain sic_84230;
+    public static final readonly SICCodesDomain sic_84240;
+    public static final readonly SICCodesDomain sic_84250;
+    public static final readonly SICCodesDomain sic_84300;
+    public static final readonly SICCodesDomain sic_85100;
+    public static final readonly SICCodesDomain sic_85200;
+    public static final readonly SICCodesDomain sic_85310;
+    public static final readonly SICCodesDomain sic_85320;
+    public static final readonly SICCodesDomain sic_85410;
+    public static final readonly SICCodesDomain sic_85421;
+    public static final readonly SICCodesDomain sic_85422;
+    public static final readonly SICCodesDomain sic_85510;
+    public static final readonly SICCodesDomain sic_85520;
+    public static final readonly SICCodesDomain sic_85530;
+    public static final readonly SICCodesDomain sic_85590;
+    public static final readonly SICCodesDomain sic_85600;
+    public static final readonly SICCodesDomain sic_86101;
+    public static final readonly SICCodesDomain sic_86102;
+    public static final readonly SICCodesDomain sic_86210;
+    public static final readonly SICCodesDomain sic_86220;
+    public static final readonly SICCodesDomain sic_86230;
+    public static final readonly SICCodesDomain sic_86900;
+    public static final readonly SICCodesDomain sic_87100;
+    public static final readonly SICCodesDomain sic_87200;
+    public static final readonly SICCodesDomain sic_87300;
+    public static final readonly SICCodesDomain sic_87900;
+    public static final readonly SICCodesDomain sic_88100;
+    public static final readonly SICCodesDomain sic_88910;
+    public static final readonly SICCodesDomain sic_88990;
+    public static final readonly SICCodesDomain sic_8910;
+    public static final readonly SICCodesDomain sic_8920;
+    public static final readonly SICCodesDomain sic_8930;
+    public static final readonly SICCodesDomain sic_8990;
+    public static final readonly SICCodesDomain sic_90010;
+    public static final readonly SICCodesDomain sic_90020;
+    public static final readonly SICCodesDomain sic_90030;
+    public static final readonly SICCodesDomain sic_90040;
+    public static final readonly SICCodesDomain sic_9100;
+    public static final readonly SICCodesDomain sic_91011;
+    public static final readonly SICCodesDomain sic_91012;
+    public static final readonly SICCodesDomain sic_91020;
+    public static final readonly SICCodesDomain sic_91030;
+    public static final readonly SICCodesDomain sic_91040;
+    public static final readonly SICCodesDomain sic_92000;
+    public static final readonly SICCodesDomain sic_93110;
+    public static final readonly SICCodesDomain sic_93120;
+    public static final readonly SICCodesDomain sic_93130;
+    public static final readonly SICCodesDomain sic_93191;
+    public static final readonly SICCodesDomain sic_93199;
+    public static final readonly SICCodesDomain sic_93210;
+    public static final readonly SICCodesDomain sic_93290;
+    public static final readonly SICCodesDomain sic_94110;
+    public static final readonly SICCodesDomain sic_94120;
+    public static final readonly SICCodesDomain sic_94200;
+    public static final readonly SICCodesDomain sic_94910;
+    public static final readonly SICCodesDomain sic_94920;
+    public static final readonly SICCodesDomain sic_94990;
+    public static final readonly SICCodesDomain sic_95110;
+    public static final readonly SICCodesDomain sic_95120;
+    public static final readonly SICCodesDomain sic_95210;
+    public static final readonly SICCodesDomain sic_95220;
+    public static final readonly SICCodesDomain sic_95230;
+    public static final readonly SICCodesDomain sic_95240;
+    public static final readonly SICCodesDomain sic_95250;
+    public static final readonly SICCodesDomain sic_95290;
+    public static final readonly SICCodesDomain sic_96010;
+    public static final readonly SICCodesDomain sic_96020;
+    public static final readonly SICCodesDomain sic_96030;
+    public static final readonly SICCodesDomain sic_96040;
+    public static final readonly SICCodesDomain sic_96090;
+    public static final readonly SICCodesDomain sic_97000;
+    public static final readonly SICCodesDomain sic_98000;
+    public static final readonly SICCodesDomain sic_98100;
+    public static final readonly SICCodesDomain sic_98200;
+    public static final readonly SICCodesDomain sic_9900;
+    public static final readonly SICCodesDomain sic_99000;
+    public static final readonly SICCodesDomain sic_99999;
+}
+
+public class SectorCodesDomain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.en" "4"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "3"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "2"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "ODMDynamicDomains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain 
+    {
+        static sector_9_MBS,
+        static sector_10_Purchases,
+        static sector_17_Stocks,
+        static sector_19_CAPEX,
+        static sector_23_RSI,
+        static sector_134_MWSS,
+        static sector_202_ABS,
+        static sector_221_BRES
+    }
+    public static final readonly SectorCodesDomain sector_10_Purchases;
+    public static final readonly SectorCodesDomain sector_134_MWSS;
+    public static final readonly SectorCodesDomain sector_17_Stocks;
+    public static final readonly SectorCodesDomain sector_19_CAPEX;
+    public static final readonly SectorCodesDomain sector_202_ABS;
+    public static final readonly SectorCodesDomain sector_221_BRES;
+    public static final readonly SectorCodesDomain sector_23_RSI;
+    public static final readonly SectorCodesDomain sector_9_MBS;
+}
+
+public class VirtualMethods
+{
+    public static void MappingRule(java.lang.String[] GivenValues, java.lang.String[] FindColumns, java.lang.String[] FromTables, string ResultSetSize, string Exceptions, string Notes, java.lang.String[] LookupBy);
+    public static string cleanName(string rulename);
+    public static string countryName(CountriesDomain country);
+    public static java.util.Date dateMinusXDays(java.util.Date date, int days);
+    public static java.util.Date datePlusXDays(java.util.Date date, int days);
+    public static int daysBetween(java.util.Date first, java.util.Date second);
+    public static boolean equalsIgnoringCase(string text1, string text2);
+    public static boolean regexMatch(string textString, string expression);
+    public static boolean regexMatch2(string value);
+    public static void reversibleLookup1to1(int indexA, string valueA, int indexB, string valueB);
+    public static void setStringArrayItemTo(int item, string value);
+    public static string stringArrayItemAt(int item, java.lang.String[] itemlist);
+    public static java.util.Date toDate(string datestring);
+    public static string toLowerCase(string text);
+}
+

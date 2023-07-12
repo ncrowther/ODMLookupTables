@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Lookup Tables</name>
+  <uuid>1077cbf4-bccc-438b-8e07-ee09d05a21d5</uuid>
+</ilog.rules.studio.model.base:RulePackage>

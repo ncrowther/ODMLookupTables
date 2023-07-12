@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Variables</name>
+  <uuid>439f8272-4055-4816-adcd-b4df86f6d71f</uuid>
+  <variables name="today" type="java.util.Date" initialValue="new java.util.Date()" verbalization="TODAY"/>
+  <variables name="failedLookupValue" type="java.lang.String" initialValue="&quot;#no lookup found#&quot;" verbalization=""/>
+  <variables name="varTo" type="java.lang.String" initialValue="" verbalization="To"/>
+  <variables name="varFrom" type="java.lang.String" initialValue="" verbalization="From"/>
+</ilog.rules.studio.model.base:VariableSet>

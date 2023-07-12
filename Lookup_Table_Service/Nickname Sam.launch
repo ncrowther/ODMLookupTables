@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/Lookup_Table_Service/deployment/LookupTableService"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="InputValues" value="function java.lang.String[] get_InputValues_value()"/>
+<mapEntry key="TableName" value="function java.lang.String get_TableName_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="InputValues" value="java.lang.String[] inputs = new java.lang.String[1];&#10;inputs[0] = &quot;Sam&quot;;&#10;return inputs;"/>
+<mapEntry key="TableName" value="return &quot;Nickname&quot;;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="InputValues" value="InputValues"/>
+<mapEntry key="TableName" value="TableName"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="InputValues" value=""/>
+<mapEntry key="TableName" value="&quot;Nickname&quot;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="InputValues" value="2"/>
+<mapEntry key="TableName" value="1"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Lookup_Table_Service"/>
+<listEntry value="/Lookup_Table_Service"/>
+<listEntry value="/Lookup_Table_Service/deployment/LookupTableService.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Lookup_Table_Service"/>
+</launchConfiguration>

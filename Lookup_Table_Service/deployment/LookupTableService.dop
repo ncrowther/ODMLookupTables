@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="LookupTable" usingRuleflow="true" ruleflowName="RuleFlow" usingExtractor="true">
+  <name>LookupTableService</name>
+  <uuid>d59e1184-ea6d-4d7d-80a3-3a4944bfd95f</uuid>
+  <description><![CDATA[ODM Look-up table service e.g.
+TableName = "RGB"
+InputValue[0] = "255";
+InputValue[1] = "0";
+InputValue[2] = "255";    ->    OutputValue[0] = "Magenta";
+
+Do add your own tables. Dynamic Select is used on TableName.]]></description>
+  <referencedVariables variableName="TableName" variableSetName="Variables-Params">
+    <variableSet href="../rules/Variables-Params.var#09ec26f2-c5e9-456c-8336-08e6a1fab590"/>
+  </referencedVariables>
+  <referencedVariables variableName="InputValues" variableSetName="Variables-Params">
+    <variableSet href="../rules/Variables-Params.var#09ec26f2-c5e9-456c-8336-08e6a1fab590"/>
+  </referencedVariables>
+  <referencedVariables variableName="OutputValues" variableSetName="Variables-Params" direction="OUT">
+    <variableSet href="../rules/Variables-Params.var#09ec26f2-c5e9-456c-8336-08e6a1fab590"/>
+  </referencedVariables>
+  <referencedVariables variableName="ErrorRaised" variableSetName="Variables-Params" direction="OUT">
+    <variableSet href="../rules/Variables-Params.var#09ec26f2-c5e9-456c-8336-08e6a1fab590"/>
+  </referencedVariables>
+  <referencedVariables variableName="ErrorMessage" variableSetName="Variables-Params" direction="OUT">
+    <variableSet href="../rules/Variables-Params.var#09ec26f2-c5e9-456c-8336-08e6a1fab590"/>
+  </referencedVariables>
+  <ruleflow href="../rules/RuleFlow.rfl#8b5da554-0bf2-4c9a-95e2-93646d36ecb5"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="EDM_RulesetOperation_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../Lookup_Table_Service#cf0a07d0-c9bb-4b70-860b-1f5b90abfa4a"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

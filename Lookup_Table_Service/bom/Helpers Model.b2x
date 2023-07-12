@@ -1,0 +1,874 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.1/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.1/Translation ilog/rules/schemas/1_1/b2x.xsd">
+    <id>5aa1480a-d3ea-4683-965a-7e2618680d4a</id>
+    <class>
+        <businessName>ISOCountryCodesDomain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>AA</name>
+            <getter language="irl"><![CDATA[
+            return("AA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AD</name>
+            <getter language="irl"><![CDATA[
+            return("AD");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AE</name>
+            <getter language="irl"><![CDATA[
+            return("AE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AL</name>
+            <getter language="irl"><![CDATA[
+            return("AL");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AM</name>
+            <getter language="irl"><![CDATA[
+            return("AM");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AN</name>
+            <getter language="irl"><![CDATA[
+            return("AN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AO</name>
+            <getter language="irl"><![CDATA[
+            return("AO");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AR</name>
+            <getter language="irl"><![CDATA[
+            return("AR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AT</name>
+            <getter language="irl"><![CDATA[
+            return("AT");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AU</name>
+            <getter language="irl"><![CDATA[
+            return("AU");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AW</name>
+            <getter language="irl"><![CDATA[
+            return("AW");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>AZ</name>
+            <getter language="irl"><![CDATA[
+            return("AZ");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BA</name>
+            <getter language="irl"><![CDATA[
+            return("BA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BB</name>
+            <getter language="irl"><![CDATA[
+            return("BB");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BE</name>
+            <getter language="irl"><![CDATA[
+            return("BE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BG</name>
+            <getter language="irl"><![CDATA[
+            return("BG");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BH</name>
+            <getter language="irl"><![CDATA[
+            return("BH");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BM</name>
+            <getter language="irl"><![CDATA[
+            return("BM");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BN</name>
+            <getter language="irl"><![CDATA[
+            return("BN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BR</name>
+            <getter language="irl"><![CDATA[
+            return("BR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>BY</name>
+            <getter language="irl"><![CDATA[
+            return("BY");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CA</name>
+            <getter language="irl"><![CDATA[
+            return("CA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CH</name>
+            <getter language="irl"><![CDATA[
+            return("CH");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CI</name>
+            <getter language="irl"><![CDATA[
+            return("CI");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CL</name>
+            <getter language="irl"><![CDATA[
+            return("CL");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CN</name>
+            <getter language="irl"><![CDATA[
+            return("CN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CO</name>
+            <getter language="irl"><![CDATA[
+            return("CO");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CR</name>
+            <getter language="irl"><![CDATA[
+            return("CR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CY</name>
+            <getter language="irl"><![CDATA[
+            return("CY");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CZ</name>
+            <getter language="irl"><![CDATA[
+            return("CZ");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>DE</name>
+            <getter language="irl"><![CDATA[
+            return("DE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>DK</name>
+            <getter language="irl"><![CDATA[
+            return("DK");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>DO</name>
+            <getter language="irl"><![CDATA[
+            return("DO");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>DU</name>
+            <getter language="irl"><![CDATA[
+            return("DU");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>DZ</name>
+            <getter language="irl"><![CDATA[
+            return("DZ");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>EC</name>
+            <getter language="irl"><![CDATA[
+            return("EC");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>EE</name>
+            <getter language="irl"><![CDATA[
+            return("EE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>EG</name>
+            <getter language="irl"><![CDATA[
+            return("EG");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>ES</name>
+            <getter language="irl"><![CDATA[
+            return("ES");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>FI</name>
+            <getter language="irl"><![CDATA[
+            return("FI");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>FK</name>
+            <getter language="irl"><![CDATA[
+            return("FK");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>FR</name>
+            <getter language="irl"><![CDATA[
+            return("FR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GA</name>
+            <getter language="irl"><![CDATA[
+            return("GA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GB</name>
+            <getter language="irl"><![CDATA[
+            return("GB");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GD</name>
+            <getter language="irl"><![CDATA[
+            return("GD");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GH</name>
+            <getter language="irl"><![CDATA[
+            return("GH");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GI</name>
+            <getter language="irl"><![CDATA[
+            return("GI");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GR</name>
+            <getter language="irl"><![CDATA[
+            return("GR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GS</name>
+            <getter language="irl"><![CDATA[
+            return("GS");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GT</name>
+            <getter language="irl"><![CDATA[
+            return("GT");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>HK</name>
+            <getter language="irl"><![CDATA[
+            return("HK");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>HN</name>
+            <getter language="irl"><![CDATA[
+            return("HN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>HR</name>
+            <getter language="irl"><![CDATA[
+            return("HR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>HU</name>
+            <getter language="irl"><![CDATA[
+            return("HU");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>IC</name>
+            <getter language="irl"><![CDATA[
+            return("IC");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>ID</name>
+            <getter language="irl"><![CDATA[
+            return("ID");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>IE</name>
+            <getter language="irl"><![CDATA[
+            return("IE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>IL</name>
+            <getter language="irl"><![CDATA[
+            return("IL");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>IN</name>
+            <getter language="irl"><![CDATA[
+            return("IN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>IQ</name>
+            <getter language="irl"><![CDATA[
+            return("IQ");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>IS</name>
+            <getter language="irl"><![CDATA[
+            return("IS");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>IT</name>
+            <getter language="irl"><![CDATA[
+            return("IT");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>JM</name>
+            <getter language="irl"><![CDATA[
+            return("JM");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>JO</name>
+            <getter language="irl"><![CDATA[
+            return("JO");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>JP</name>
+            <getter language="irl"><![CDATA[
+            return("JP");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>JS</name>
+            <getter language="irl"><![CDATA[
+            return("JS");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>KE</name>
+            <getter language="irl"><![CDATA[
+            return("KE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>KM</name>
+            <getter language="irl"><![CDATA[
+            return("KM");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>KR</name>
+            <getter language="irl"><![CDATA[
+            return("KR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>KW</name>
+            <getter language="irl"><![CDATA[
+            return("KW");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>KZ</name>
+            <getter language="irl"><![CDATA[
+            return("KZ");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>LB</name>
+            <getter language="irl"><![CDATA[
+            return("LB");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>LK</name>
+            <getter language="irl"><![CDATA[
+            return("LK");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>LT</name>
+            <getter language="irl"><![CDATA[
+            return("LT");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>LU</name>
+            <getter language="irl"><![CDATA[
+            return("LU");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>LV</name>
+            <getter language="irl"><![CDATA[
+            return("LV");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MA</name>
+            <getter language="irl"><![CDATA[
+            return("MA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MD</name>
+            <getter language="irl"><![CDATA[
+            return("MD");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MG</name>
+            <getter language="irl"><![CDATA[
+            return("MG");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MK</name>
+            <getter language="irl"><![CDATA[
+            return("MK");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MN</name>
+            <getter language="irl"><![CDATA[
+            return("MN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MT</name>
+            <getter language="irl"><![CDATA[
+            return("MT");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MU</name>
+            <getter language="irl"><![CDATA[
+            return("MU");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MX</name>
+            <getter language="irl"><![CDATA[
+            return("MX");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>MY</name>
+            <getter language="irl"><![CDATA[
+            return("MY");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>NC</name>
+            <getter language="irl"><![CDATA[
+            return("NC");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>NG</name>
+            <getter language="irl"><![CDATA[
+            return("NG");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>NL</name>
+            <getter language="irl"><![CDATA[
+            return("NL");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>NO</name>
+            <getter language="irl"><![CDATA[
+            return("NO");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>NZ</name>
+            <getter language="irl"><![CDATA[
+            return("NZ");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>OM</name>
+            <getter language="irl"><![CDATA[
+            return("OM");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PA</name>
+            <getter language="irl"><![CDATA[
+            return("PA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PE</name>
+            <getter language="irl"><![CDATA[
+            return("PE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PF</name>
+            <getter language="irl"><![CDATA[
+            return("PF");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PG</name>
+            <getter language="irl"><![CDATA[
+            return("PG");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PH</name>
+            <getter language="irl"><![CDATA[
+            return("PH");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PK</name>
+            <getter language="irl"><![CDATA[
+            return("PK");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PL</name>
+            <getter language="irl"><![CDATA[
+            return("PL");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PT</name>
+            <getter language="irl"><![CDATA[
+            return("PT");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PY</name>
+            <getter language="irl"><![CDATA[
+            return("PY");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>QA</name>
+            <getter language="irl"><![CDATA[
+            return("QA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>QQ</name>
+            <getter language="irl"><![CDATA[
+            return("QQ");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>RE</name>
+            <getter language="irl"><![CDATA[
+            return("RE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>RO</name>
+            <getter language="irl"><![CDATA[
+            return("RO");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>RU</name>
+            <getter language="irl"><![CDATA[
+            return("RU");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SA</name>
+            <getter language="irl"><![CDATA[
+            return("SA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SC</name>
+            <getter language="irl"><![CDATA[
+            return("SC");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SE</name>
+            <getter language="irl"><![CDATA[
+            return("SE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SG</name>
+            <getter language="irl"><![CDATA[
+            return("SG");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SI</name>
+            <getter language="irl"><![CDATA[
+            return("SI");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SK</name>
+            <getter language="irl"><![CDATA[
+            return("SK");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SN</name>
+            <getter language="irl"><![CDATA[
+            return("SN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SY</name>
+            <getter language="irl"><![CDATA[
+            return("SY");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>TH</name>
+            <getter language="irl"><![CDATA[
+            return("TH");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>TN</name>
+            <getter language="irl"><![CDATA[
+            return("TN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>TR</name>
+            <getter language="irl"><![CDATA[
+            return("TR");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>TT</name>
+            <getter language="irl"><![CDATA[
+            return("TT");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>TW</name>
+            <getter language="irl"><![CDATA[
+            return("TW");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>UA</name>
+            <getter language="irl"><![CDATA[
+            return("UA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>US</name>
+            <getter language="irl"><![CDATA[
+            return("US");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>UY</name>
+            <getter language="irl"><![CDATA[
+            return("UY");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>VE</name>
+            <getter language="irl"><![CDATA[
+            return("VE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>VN</name>
+            <getter language="irl"><![CDATA[
+            return("VN");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>XS</name>
+            <getter language="irl"><![CDATA[
+            return("XS");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>YE</name>
+            <getter language="irl"><![CDATA[
+            return("YE");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>ZA</name>
+            <getter language="irl"><![CDATA[
+            return("ZA");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>ZM</name>
+            <getter language="irl"><![CDATA[
+            return("ZM");
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>ZW</name>
+            <getter language="irl"><![CDATA[
+            return("ZW");
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>VirtualMethods</businessName>
+        <executionName>void</executionName>
+        <import>java.text.DateFormat</import>
+        <import>java.text.SimpleDateFormat</import>
+        <import>java.sql.Date</import>
+        <import>java.util.Date</import>
+        <attribute>
+            <name>CITIS_ISO_COUNTRY_CODE</name>
+            <getter language="irl"><![CDATA[
+            String[] GivenValues = (String[])context.getParameterValue("GivenValues");
+//System.out.println("~~~ CITIS_ISO_COUNTRY_CODE = "+GivenValues[0]);
+return GivenValues[0];
+            ]]></getter>
+        </attribute>
+        <method>
+            <name>MappingRule</name>
+            <parameter type="java.lang.String[]"/>
+            <parameter type="java.lang.String[]"/>
+            <parameter type="java.lang.String[]"/>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String[]"/>
+            <body language="irl"><![CDATA[
+            return;
+            ]]></body>
+        </method>
+        <method>
+            <name>cleanName</name>
+            <parameter type="java.lang.String"/>
+            <body language="irl"><![CDATA[
+            rulename = rulename.replace("$_$","_");
+rulename = rulename.replace("$45$","-");
+// -- rulename = rulename.replace("_"," ");  // --  Oops, spaces are replaced with underscores so how do we distinguish real ones
+//System.out.println("~~~ Clean name of rule = "+rulename);
+return rulename;
+            ]]></body>
+        </method>
+        <method>
+            <name>regexMatch</name>
+            <parameter type="java.lang.String"/>
+            <parameter type="java.lang.String"/>
+            <body language="irl"><![CDATA[
+            return textString.matches(expression);
+            ]]></body>
+        </method>
+        <method>
+            <name>setStringArrayItemTo</name>
+            <parameter type="int"/>
+            <parameter type="java.lang.String[]"/>
+            <parameter type="java.lang.String"/>
+            <body language="irl"><![CDATA[
+            // -- To make it easy for business users the items will be counted from 1..n
+
+// -- Check if requested element is out of bounds
+if (item <= 0)
+{
+	// -- TODO Set error flags and message	
+	return;
+}
+else
+//System.out.println("~~~ Setting FindValues["+ (item-1) +"] = "+value);
+itemlist[item-1] = value;
+            ]]></body>
+        </method>
+        <method>
+            <name>stringArrayItemAt</name>
+            <parameter type="int"/>
+            <parameter type="java.lang.String[]"/>
+            <body language="irl"><![CDATA[
+            // -- To make it easy for business users the items will be counted from 1..n
+
+// -- Check if requested element is out of bounds
+if (item <= 0 || item > itemlist.length)
+{
+	// -- TODO Set error flags and message	
+	return "";	
+}
+else
+	return itemlist[item-1];
+            ]]></body>
+        </method>
+        <method>
+            <name>toDate</name>
+            <parameter type="java.lang.String"/>
+            <body language="irl"><![CDATA[
+            DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+if (datestring == null || datestring.equals(""))
+{
+	System.out.println("~~~ Empty or null date passed to 'VirtuaMethods.toDate' returning today's date instead");
+	return new java.util.Date();
+}
+	//System.out.println("~~~ Helpers:toDate converted ["+datestring+"] to - " + df.parse(datestring).toString());
+
+return df.parse(datestring);
+            ]]></body>
+        </method>
+    </class>
+</b2x:translation>

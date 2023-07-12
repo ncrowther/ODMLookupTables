@@ -1,0 +1,7 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/LookupUI/node_modules
+/Lookup_Table_Service/output
+/Lookup_Table_Service/reports
+
